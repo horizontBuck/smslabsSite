@@ -1,0 +1,1235 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sofax | SASS & Startup Tailwind Template</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- Site font -->
+    <link rel="stylesheet" href="assets/fonts/iconfonts/remixicon.css" />
+    <link rel="stylesheet" href="assets/fonts/webfonts/fonts.css" />
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="assets/css/vendors/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/vendors/jos.css" />
+    <link rel="stylesheet" href="assets/css/vendors/menu.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css" />
+
+    <!-- Development css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Production css -->
+    <!-- <link rel="stylesheet" href="/assets/css/style.min.css" /> -->
+  </head>
+
+  <body class="relative">
+    <div class="page-wrapper relative">
+      <!-- ...::: Header Section Start :::... -->
+      <header
+        class="section-header site-header fixed top-0 z-30 w-full bg-colorTextTitle/80 py-2"
+      >
+        <!-- Section Container -->
+        <div class="container">
+          <!-- Header Area -->
+          <div class="flex items-center justify-between">
+            <!-- Header Left Block -->
+            <div>
+              <!-- Header Logo -->
+              <a class='h-auto w-auto' href='index.html'>
+                <img
+                  src="assets/img/images/logo-alter.png"
+                  alt="logo"
+                  width="112"
+                  height="40"
+                />
+              </a>
+              <!-- Header Logo -->
+            </div>
+            <!-- Header Left Block -->
+
+            <!-- Header Navigation -->
+            <div class="menu-block-wrapper">
+              <div class="menu-overlay"></div>
+              <nav class="menu-block" id="append-menu-header">
+                <div class="mobile-menu-head">
+                  <div class="go-back">
+                    <i class="ri-arrow-left-s-fill"></i>
+                  </div>
+                  <div class="current-menu-title"></div>
+                  <div class="mobile-menu-close">&times;</div>
+                </div>
+                <ul class="site-menu-main">
+                  <li class="nav-item nav-item-has-children">
+                    <a
+                      href="blog-details#"
+                      class="nav-link-item drop-trigger text-black lg:text-white"
+                      >Demo <i class="ri-arrow-down-s-fill"></i>
+                    </a>
+                    <ul class="sub-menu" id="submenu-0">
+                      <li class="sub-menu--item nav-item-has-children">
+                        <a href="blog-details#" data-menu-get="h3" class="drop-trigger"
+                          >Multi Page
+                          <i class="ri-arrow-right-s-fill"></i>
+                        </a>
+                        <ul class="sub-menu shape-none" id="submenu-1">
+                          <li class="sub-menu--item">
+                            <a href='index.html'>Sales Management</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='index-2'>Crypto App</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='index-3'>Team Management</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='index-4'>SMM Agency</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='index-5'>Digital Agency </a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='index-6'>CRM</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='index-7'>AI SAAS</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='index-8'>IT Services</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='index-9'>Email Marketing</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='index-10'>Web Hosting</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="sub-menu--item nav-item-has-children">
+                        <a href="blog-details#" data-menu-get="h3" class="drop-trigger"
+                          >One Page
+                          <i class="ri-arrow-right-s-fill"></i>
+                        </a>
+                        <ul class="sub-menu shape-none" id="submenu-9">
+                          <li class="sub-menu--item">
+                            <a href='index-op-1'>Sales Management</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='index-op-2'>Crypto App</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='index-op-3'>Team Management</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='index-op-4'>SMM Agency</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='index-op-5'>Digital Agency </a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='index-op-6'>CRM</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='index-op-7'>AI SAAS</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='index-op-8'>IT Services</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='index-op-9'>Email Marketing</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='index-op-10'>Web Hosting</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class='nav-link-item text-white' href='about'>About</a
+                    >
+                  </li>
+                  <li class="nav-item nav-item-has-children">
+                    <a
+                      href="blog-details#"
+                      class="nav-link-item drop-trigger text-black lg:text-white"
+                      >Services
+                      <i class="ri-arrow-down-s-fill"></i>
+                    </a>
+                    <ul class="sub-menu" id="submenu-2">
+                      <li class="sub-menu--item">
+                        <a href='services'>Services</a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href='service-details'>Service Details</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item nav-item-has-children">
+                    <a
+                      href="blog-details#"
+                      class="nav-link-item drop-trigger text-black lg:text-white"
+                      >Blog
+                      <i class="ri-arrow-down-s-fill"></i>
+                    </a>
+                    <ul class="sub-menu" id="submenu-3">
+                      <li class="sub-menu--item">
+                        <a href='blog'>Blogs</a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href='blog-details'>Blogs Details</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item nav-item-has-children">
+                    <a
+                      href="blog-details#"
+                      class="nav-link-item drop-trigger text-black lg:text-white"
+                      >Pages <i class="ri-arrow-down-s-fill"></i>
+                    </a>
+                    <ul class="sub-menu" id="submenu-4">
+                      <li class="sub-menu--item nav-item-has-children">
+                        <a href="blog-details#" data-menu-get="h3" class="drop-trigger"
+                          >Team
+                          <i class="ri-arrow-right-s-fill"></i>
+                        </a>
+                        <ul class="sub-menu shape-none" id="submenu-5">
+                          <li class="sub-menu--item">
+                            <a href='team'>Teams</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='team-details'>Teams Details</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="sub-menu--item nav-item-has-children">
+                        <a href="blog-details#" data-menu-get="h3" class="drop-trigger"
+                          >Portfolio
+                          <i class="ri-arrow-right-s-fill"></i>
+                        </a>
+                        <ul class="sub-menu shape-none" id="submenu-6">
+                          <li class="sub-menu--item">
+                            <a href='portfolio'>Portfolio</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='portfolio-details'>Portfolio Details</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="sub-menu--item nav-item-has-children">
+                        <a href="blog-details#" data-menu-get="h3" class="drop-trigger"
+                          >Careers
+                          <i class="ri-arrow-right-s-fill"></i>
+                        </a>
+                        <ul class="sub-menu shape-none" id="submenu-7">
+                          <li class="sub-menu--item">
+                            <a href='career'>Careers</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='career-details'>Careers Details</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a class='drop-trigger' data-menu-get='h3' href='faq'>FAQ
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a class='drop-trigger' data-menu-get='h3' href='pricing'>Pricing
+                        </a>
+                      </li>
+                      <li class="sub-menu--item nav-item-has-children">
+                        <a href="blog-details#" data-menu-get="h3" class="drop-trigger"
+                          >Utilities
+                          <i class="ri-arrow-right-s-fill"></i>
+                        </a>
+                        <ul class="sub-menu shape-none" id="submenu-8">
+                          <li class="sub-menu--item">
+                            <a href='terms-condition'>Terms & Condition</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='login'>Login</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='signup'>Signup</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='reset-password'>Reset Password</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='coming-soon'>Coming Soon</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='error-404'>Error 404</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class='nav-link-item text-white' href='contact'>Contact</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <!-- Header Navigation -->
+
+            <!-- Header Right Block -->
+            <div class="flex items-center gap-x-6">
+              <a class='btn btn-primary relative hidden min-w-0 px-[30px] py-[10px] sm:inline-flex' href='contact'>
+                <span>Contact Us</span>
+                <span>Contact Us</span>
+              </a>
+
+              <!-- Responsive Offcanvas Menu Button -->
+              <div class="block lg:hidden">
+                <button id="openBtn" class="hamburger-menu mobile-menu-trigger">
+                  <span class="bg-white before:bg-white after:bg-white"></span>
+                </button>
+              </div>
+            </div>
+            <!-- Header Right Block -->
+          </div>
+          <!-- Header Area -->
+        </div>
+        <!-- Section Container -->
+      </header>
+      <!-- ...::: Header Section End :::... -->
+
+      <!-- Main Wrapper -->
+      <main class="main-wrapper relative overflow-x-clip">
+        <!--...::: Breadcrumb Section Start :::... -->
+        <section class="section-breadcrumb">
+          <!-- Breadcrumb Background -->
+          <div class="bg-colorTextTitle">
+            <!-- Breadcrumb Space -->
+            <div class="breadcrumb-space">
+              <!-- Breadcrumb Container -->
+              <div class="container">
+                <div class="text-center text-white">
+                  <h1 class="mb-[50px] text-white">Blog Details</h1>
+                  <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item">
+                        <a href='index.html'>Home</a>
+                      </li>
+                      <li class="breadcrumb-item">
+                        <a href='blog'>Blog</a>
+                      </li>
+                      <li class="breadcrumb-item active" aria-current="page">
+                        Blog Details
+                      </li>
+                    </ol>
+                  </nav>
+                </div>
+              </div>
+              <!-- Breadcrumb Container -->
+            </div>
+            <!-- Breadcrumb Space -->
+          </div>
+          <!-- Breadcrumb Background -->
+        </section>
+        <!--...::: Breadcrumb Section End :::... -->
+
+        <!--...::: Blog Details Section Start :::... -->
+        <div class="section-blog">
+          <!-- Section Space -->
+          <div class="section-space">
+            <!-- Section Container -->
+            <div class="container">
+              <!-- Blog Area -->
+              <div
+                class="grid grid-cols-1 gap-[30px] lg:grid-cols-[1fr_minmax(416px,0.5fr)]"
+              >
+                <!-- Blog Details Left -->
+                <div>
+                  <!-- Blog Post Article -->
+                  <article class="jos">
+                    <div class="mb-10 overflow-hidden rounded-[10px]">
+                      <img
+                        src="assets/img/images/home-1/portfolio-details-img.jpg"
+                        alt="portfolio-details-img"
+                        width="1296"
+                        height="650"
+                        class="h-full w-full object-cover"
+                      />
+                    </div>
+                    <div class="rich-text-block">
+                      <h3>
+                        Optimizing your online store for a maximum to the sales
+                        impact & expose your business to the world.
+                      </h3>
+                      <p>
+                        Optimizing your online store for maximum sales impact &
+                        exposure involves a multifaceted approach &
+                        incorporating a blog can be a crucial aspect of that
+                        strategy. Here's a detailed breakdown of how to leverage
+                        a blog to enhance your online store's performance:
+                      </p>
+
+                      <h4>1. Mobile Optimization</h4>
+                      <p>
+                        Ensure your online store is mobile-friendly, as a
+                        significant portion of online shopping occurs on mobile
+                        devices. Optimize your website design and user
+                        experience for smartphones and tablets to maximize
+                        accessibility and conversion rates.
+                      </p>
+
+                      <h4>2. Search Engine Optimization</h4>
+                      <p>
+                        Implement SEO best practices to improve your website's
+                        visibility in search engine results. This includes
+                        optimizing product descriptions, meta tags & URLs as
+                        well as building quality backlinks & creating valuable
+                        content that aligns with relevant keywords.
+                      </p>
+
+                      <h4>3. Review & Testimonials</h4>
+                      <p>
+                        Display customer reviews and testimonials prominently on
+                        your website to build trust and credibility. Positive
+                        reviews can reassure potential buyers and encourage them
+                        to complete their purchase.
+                      </p>
+
+                      <h4>4. Social Media Marketing</h4>
+                      <p>
+                        Leverage social media platforms to promote your online
+                        store & engage with your target audience. Create
+                        compelling content, run targeted ad campaigns, and
+                        actively interact with followers to drive traffic and
+                        generate sales.
+                      </p>
+
+                      <blockquote>
+                        "Online stores are great in that grow and evolve with
+                        your business, becoming more valuable."
+                      </blockquote>
+
+                      <h4>5. Streamlined Checkout Process</h4>
+                      <p>
+                        Simplify the checkout process to minimize friction and
+                        reduce cart abandonment rates. Offer guest checkout
+                        options, provide multiple payment methods & optimize
+                        page load times to create a seamless purchasing
+                        experience.
+                      </p>
+
+                      <h4>6. Analytics & Optimization</h4>
+                      <p>
+                        Regularly monitor key performance indicators such as
+                        conversion rates, average order to value & customer
+                        acquisition cost. Use analytics tools to identify areas
+                        for improvement & make data-driven decisions to optimize
+                        your online store for maximum sales impact.
+                      </p>
+
+                      <h4>7. Email Marketing</h4>
+                      <p>
+                        Build an email list of subscribers and send targeted
+                        email campaigns to promote new a products special offers
+                        & discounts. Use segmentation & personalization
+                        techniques to deliver relevant content that resonates
+                        with your audience.
+                      </p>
+                    </div>
+                  </article>
+                  <!-- Blog Post Article -->
+
+                  <!-- Blog Details Tags, Social Share Block -->
+                  <div
+                    class="jos my-10 flex flex-wrap items-center justify-between gap-x-10 gap-y-5 border-y border-[#E6E6E6] py-6"
+                  >
+                    <!-- Blog Details Tags -->
+                    <div class="flex items-center gap-x-6">
+                      <span class="display-heading display-heading-4"
+                        >Tags:</span
+                      >
+                      <div class="flex gap-4">
+                        <a class='rounded-[50px] bg-black/5 px-6 py-2 text-base tracking-[0.5px] hover:bg-black hover:text-white' href='blog'>Solutions</a
+                        >
+                        <a class='rounded-[50px] bg-black/5 px-6 py-2 text-base tracking-[0.5px] hover:bg-black hover:text-white' href='blog'>Business</a
+                        >
+                      </div>
+                    </div>
+                    <!-- Blog Details Tags -->
+                    <!-- Blog Details Share -->
+                    <div class="flex items-center gap-x-6">
+                      <span class="display-heading display-heading-4"
+                        >Share:</span
+                      >
+                      <div class="flex gap-4">
+                        <a
+                          href="http://www.twitter.com"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorTextTitle font-normal text-white hover:bg-colorPurpleLight hover:text-colorTextTitle"
+                        >
+                          <i class="ri-twitter-x-line"></i>
+                        </a>
+                        <a
+                          href="http://www.facebook.com"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorTextTitle font-normal text-white hover:bg-colorPurpleLight hover:text-colorTextTitle"
+                        >
+                          <i class="ri-facebook-fill"></i>
+                        </a>
+                        <a
+                          href="http://www.instagram.com"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorTextTitle font-normal text-white hover:bg-colorPurpleLight hover:text-colorTextTitle"
+                        >
+                          <i class="ri-instagram-line"></i>
+                        </a>
+                        <a
+                          href="http://www.linkedin.com"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorTextTitle font-normal text-white hover:bg-colorPurpleLight hover:text-colorTextTitle"
+                        >
+                          <i class="ri-linkedin-fill"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <!-- Blog Details Share -->
+                  </div>
+                  <!-- Blog Details Tags, Social Share Block -->
+
+                  <!-- Blog Comments -->
+                  <div class="jos">
+                    <div class="display-heading display-heading-3 mb-[30px]">
+                      Comments:
+                    </div>
+
+                    <ul
+                      class="flex flex-col gap-y-[30px] border-b border-colorBorder pb-10"
+                    >
+                      <!-- Single Comment List -->
+                      <li class="border-b border-colorBorder last:border-b-0">
+                        <div class="flex gap-x-5">
+                          <!-- Comment User Image -->
+                          <div
+                            class="h-[80px] w-[80px] overflow-hidden rounded-full"
+                          >
+                            <img
+                              src="assets/img/images/home-1/blog-comment-large-user-img-1.jpg"
+                              alt="blog-comment-large-user-img-1"
+                              width="80"
+                              height="80"
+                            />
+                          </div>
+                          <!-- Comment User Image -->
+                          <!-- Comment Content -->
+                          <div class="flex flex-1 flex-col gap-y-4">
+                            <!-- Comment User info -->
+                            <div
+                              class="flex items-center justify-between gap-x-5"
+                            >
+                              <div class="flex flex-col gap-y-1 text-base">
+                                <div class="font-semibold text-colorTextTitle">
+                                  Ricky Smith
+                                </div>
+                                <div class="text-ColorBlack/80">
+                                  June 14, 2024
+                                </div>
+                              </div>
+                              <button
+                                class="text-base font-semibold transition-all duration-300"
+                              >
+                                Reply
+                              </button>
+                            </div>
+                            <!-- Comment User info -->
+                            <!-- Comment User Text -->
+                            <p class="max-w-[616px]">
+                              It is a long established fact that a reader will
+                              be distrac readable content of a page when looking
+                              at its layout. The point of using is that it has
+                              two.
+                            </p>
+                            <!-- Comment User Text -->
+                          </div>
+                          <!-- Comment Content -->
+                        </div>
+                        <!-- Comment Reply -->
+                        <ul class="mt-[30px] flex flex-col pl-8 sm:pl-32">
+                          <!-- Comment Reply Item -->
+                          <li class="border-t border-colorBorder py-[30px]">
+                            <div class="flex gap-x-5">
+                              <!-- Comment User Image -->
+                              <div
+                                class="h-[50px] w-[50px] overflow-hidden rounded-full"
+                              >
+                                <img
+                                  src="assets/img/images/home-1/blog-comment-small-user-img-1.jpg"
+                                  alt="blog-comment-large-user-img-1"
+                                  width="50"
+                                  height="50"
+                                />
+                              </div>
+                              <!-- Comment User Image -->
+                              <!-- Comment Content -->
+                              <div class="flex flex-1 flex-col gap-y-4">
+                                <!-- Comment User info -->
+                                <div
+                                  class="flex items-center justify-between gap-x-5"
+                                >
+                                  <div class="flex flex-col gap-y-1 text-base">
+                                    <div
+                                      class="font-semibold text-colorTextTitle"
+                                    >
+                                      Joshua Jones
+                                    </div>
+                                    <div class="text-ColorBlack/80">
+                                      June 15, 2024
+                                    </div>
+                                  </div>
+                                  <button
+                                    class="text-base font-bold transition-all duration-300"
+                                  >
+                                    Reply
+                                  </button>
+                                </div>
+                                <!-- Comment User info -->
+                                <!-- Comment User Text -->
+                                <p class="max-w-[536px]">
+                                  It is a long established fact that a reader
+                                  will be distra readable content of a page when
+                                  looking its layout. The point of using.
+                                </p>
+                                <!-- Comment User Text -->
+                              </div>
+                              <!-- Comment Content -->
+                            </div>
+                          </li>
+                          <!-- Comment Reply Item -->
+                        </ul>
+                        <!-- Comment Reply -->
+                      </li>
+                      <li class="border-b border-colorBorder last:border-b-0">
+                        <div class="flex gap-x-5">
+                          <!-- Comment User Image -->
+                          <div
+                            class="h-[80px] w-[80px] overflow-hidden rounded-full"
+                          >
+                            <img
+                              src="assets/img/images/home-1/blog-comment-large-user-img-2.jpg"
+                              alt="blog-comment-large-user-img-1"
+                              width="80"
+                              height="80"
+                            />
+                          </div>
+                          <!-- Comment User Image -->
+                          <!-- Comment Content -->
+                          <div class="flex flex-1 flex-col gap-y-4">
+                            <!-- Comment User info -->
+                            <div
+                              class="flex items-center justify-between gap-x-5"
+                            >
+                              <div class="flex flex-col gap-y-1 text-base">
+                                <div class="font-semibold text-colorTextTitle">
+                                  Stephanie Nicol
+                                </div>
+                                <div class="text-ColorBlack/80">
+                                  Jan 28, 2023
+                                </div>
+                              </div>
+                              <button
+                                class="text-base font-semibold transition-all duration-300"
+                              >
+                                Reply
+                              </button>
+                            </div>
+                            <!-- Comment User info -->
+                            <!-- Comment User Text -->
+                            <p class="max-w-[616px]">
+                              It is a long established fact that a reader will
+                              be distrac readable content of a page when looking
+                              at its layout. The point of using is that it has
+                              two.
+                            </p>
+                            <!-- Comment User Text -->
+                          </div>
+                          <!-- Comment Content -->
+                        </div>
+                      </li>
+                      <!-- Single Comment List -->
+                    </ul>
+                  </div>
+                  <!-- Blog Comments -->
+
+                  <!-- Blog Comments Form -->
+                  <div class="jos mt-8">
+                    <div class="display-heading display-heading-3 mb-[30px]">
+                      Leave a comments:
+                    </div>
+
+                    <form
+                      action="blog-details#"
+                      method="post"
+                      class="grid grid-cols-1 gap-y-6 rounded-[10px] bg-white p-10 shadow-custom-1"
+                    >
+                      <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+                        <input
+                          type="text"
+                          placeholder="Your Name*"
+                          class="w-full rounded-[50px] border border-colorTextTitle bg-white px-[30px] py-4 text-base leading-none outline-none"
+                          required
+                        />
+                        <input
+                          type="email"
+                          placeholder="Email Address*"
+                          class="w-full rounded-[50px] border border-colorTextTitle bg-white px-[30px] py-4 text-base leading-none outline-none"
+                          required
+                        />
+                      </div>
+                      <div class="grid grid-cols-1 gap-6">
+                        <textarea
+                          class="min-h-52 w-full rounded-[15px] border border-colorTextTitle bg-white px-[30px] py-4 text-base leading-none outline-none"
+                          placeholder="Write us your comment"
+                          required
+                        ></textarea>
+                      </div>
+                      <div class="mt-7 flex justify-start gap-6">
+                        <button type="submit" class="btn btn-primary">
+                          <span>Post Comment</span>
+                          <span>Post Comment</span>
+                        </button>
+                      </div>
+                    </form>
+                  </div>
+                  <!-- Blog Comments Form -->
+                </div>
+                <!-- Blog Details Left -->
+
+                <!-- Sidebar Block -->
+                <aside class="jos flex flex-col gap-y-8">
+                  <!-- Sidebar Widget - Search -->
+                  <div>
+                    <form
+                      action="blog-details#"
+                      method="get"
+                      class="relative overflow-hidden"
+                    >
+                      <input
+                        type="search"
+                        placeholder="Search..."
+                        class="w-full rounded-[50px] border border-colorTextTitle px-8 py-4 pr-16 text-base outline-none"
+                      />
+                      <button
+                        type="submit"
+                        class="absolute right-0 top-0 h-full pl-6 pr-8"
+                      >
+                        <i class="ri-search-line"></i>
+                      </button>
+                    </form>
+                  </div>
+                  <!-- Sidebar Widget - Search -->
+
+                  <!-- Sidebar Widget - Categories -->
+                  <div
+                    class="rounded-[20px] border border-colorTextTitle p-[30px]"
+                  >
+                    <span class="display-heading display-heading-4 mb-6 block"
+                      >Categories:</span
+                    >
+
+                    <!-- Categories List -->
+                    <ul class="flex list-inside list-disc flex-col gap-y-4">
+                      <li>
+                        <a class='hover:text-colorTextTitle' href='blog'>Saas</a
+                        >
+                      </li>
+                      <li>
+                        <a class='hover:text-colorTextTitle' href='blog'>Business</a
+                        >
+                      </li>
+                      <li>
+                        <a class='hover:text-colorTextTitle' href='blog'>Marketing</a
+                        >
+                      </li>
+                      <li>
+                        <a class='hover:text-colorTextTitle' href='blog'>Technology</a
+                        >
+                      </li>
+                      <li>
+                        <a class='hover:text-colorTextTitle' href='blog'>Development</a
+                        >
+                      </li>
+                    </ul>
+                    <!-- Categories List -->
+                  </div>
+                  <!-- Sidebar Widget - Categories -->
+
+                  <!-- Sidebar Widget - Recent Posts -->
+                  <div
+                    class="rounded-[20px] border border-colorTextTitle p-[30px]"
+                  >
+                    <span class="display-heading display-heading-4 mb-6 block"
+                      >Recent Posts:</span
+                    >
+
+                    <!-- Recent Posts List -->
+                    <ul class="flex list-inside list-disc flex-col gap-y-6">
+                      <li class="flex items-center gap-4">
+                        <a class='group flex w-full flex-col items-start gap-4 sm:flex-row sm:items-center' href='blog-details'>
+                          <div
+                            class="w-full overflow-hidden rounded-[6px] sm:w-[164px]"
+                          >
+                            <img
+                              src="assets/img/images/home-1/blog-recent-thumbnail-1.jpg"
+                              alt="blog-recent-thumbnail-1"
+                              width="164"
+                              height="110"
+                              class="transition-default h-full w-full object-cover group-hover:scale-110"
+                            />
+                          </div>
+                          <div class="flex-1">
+                            <span class="mb-2 block text-xs"
+                              >April 13, 2024</span
+                            >
+                            <span
+                              class="transition-default text-sm font-bold leading-[1.4] group-hover:text-colorTextTitle"
+                              >Six what ifs that could the transform digital
+                              agency</span
+                            >
+                          </div>
+                        </a>
+                      </li>
+                      <li class="flex items-center gap-4">
+                        <a class='group flex w-full flex-col items-start gap-4 sm:flex-row sm:items-center' href='blog-details'>
+                          <div
+                            class="w-full overflow-hidden rounded-[6px] sm:w-[164px]"
+                          >
+                            <img
+                              src="assets/img/images/home-1/blog-recent-thumbnail-2.jpg"
+                              alt="blog-recent-thumbnail-2"
+                              width="164"
+                              height="110"
+                              class="transition-default h-full w-full object-cover group-hover:scale-110"
+                            />
+                          </div>
+                          <div class="flex-1">
+                            <span class="mb-2 block text-xs"
+                              >April 11, 2024</span
+                            >
+                            <span
+                              class="transition-default text-sm font-bold leading-[1.4] group-hover:text-colorTextTitle"
+                              >We have been to strategy thought leader for
+                              nearly</span
+                            >
+                          </div>
+                        </a>
+                      </li>
+                      <li class="flex items-center gap-4">
+                        <a class='group flex w-full flex-col items-start gap-4 sm:flex-row sm:items-center' href='blog-details'>
+                          <div
+                            class="w-full overflow-hidden rounded-[6px] sm:w-[164px]"
+                          >
+                            <img
+                              src="assets/img/images/home-1/blog-recent-thumbnail-3.jpg"
+                              alt="blog-recent-thumbnail-3"
+                              width="164"
+                              height="110"
+                              class="transition-default h-full w-full object-cover group-hover:scale-110"
+                            />
+                          </div>
+                          <div class="flex-1">
+                            <span class="mb-2 block text-xs"
+                              >April 10, 2024</span
+                            >
+                            <span
+                              class="transition-default text-sm font-bold leading-[1.4] group-hover:text-colorTextTitle"
+                              >This week’s top to stories agency and about
+                              it</span
+                            >
+                          </div>
+                        </a>
+                      </li>
+                    </ul>
+                    <!-- Recent Posts List -->
+                  </div>
+                  <!-- Sidebar Widget - Recent Posts -->
+
+                  <!-- Sidebar Widget - Popular Tag -->
+                  <div
+                    class="rounded-[20px] border border-colorTextTitle p-[30px]"
+                  >
+                    <span class="display-heading display-heading-4 mb-6 block"
+                      >Popular Tags:</span
+                    >
+
+                    <!-- Popular Tag List -->
+                    <div class="flex flex-wrap gap-3">
+                      <a class='text-bold rounded-[50px] border border-colorTextTitle px-5 py-2.5 font-title text-lg text-colorTextTitle hover:bg-colorTextTitle hover:text-white' href='blog'>Business</a
+                      >
+                      <a class='text-bold rounded-[50px] border border-colorTextTitle px-5 py-2.5 font-title text-lg text-colorTextTitle hover:bg-colorTextTitle hover:text-white' href='blog'>Web</a
+                      >
+                      <a class='text-bold rounded-[50px] border border-colorTextTitle px-5 py-2.5 font-title text-lg text-colorTextTitle hover:bg-colorTextTitle hover:text-white' href='blog'>Digital</a
+                      >
+                      <a class='text-bold rounded-[50px] border border-colorTextTitle px-5 py-2.5 font-title text-lg text-colorTextTitle hover:bg-colorTextTitle hover:text-white' href='blog'>Development</a
+                      >
+                      <a class='text-bold rounded-[50px] border border-colorTextTitle px-5 py-2.5 font-title text-lg text-colorTextTitle hover:bg-colorTextTitle hover:text-white' href='blog'>Technology</a
+                      >
+                      <a class='text-bold rounded-[50px] border border-colorTextTitle px-5 py-2.5 font-title text-lg text-colorTextTitle hover:bg-colorTextTitle hover:text-white' href='blog'>Agency</a
+                      >
+                      <a class='text-bold rounded-[50px] border border-colorTextTitle px-5 py-2.5 font-title text-lg text-colorTextTitle hover:bg-colorTextTitle hover:text-white' href='blog'>UI/UX</a
+                      >
+                    </div>
+                    <!-- Popular Tag List -->
+                  </div>
+                  <!-- Sidebar Widget - Popular Tag -->
+
+                  <!-- Sidebar Widget - Subscription Form -->
+                  <div
+                    class="rounded-[20px] border border-colorTextTitle bg-colorTextTitle p-[30px]"
+                  >
+                    <span
+                      class="display-heading display-heading-4 mb-6 block text-white"
+                      >Subscribe to our newsletter</span
+                    >
+
+                    <form action="blog-details#" method="post">
+                      <input
+                        type="email"
+                        placeholder="Enter your email"
+                        class="w-full rounded-[50px] border border-colorBorder bg-colorTextTitle px-11 py-3 text-white"
+                      />
+                      <button
+                        type="submit"
+                        class="btn btn-primary mt-3 flex w-full"
+                      >
+                        <span>Subscribe now</span>
+                        <span>Subscribe now</span>
+                      </button>
+                    </form>
+                  </div>
+                  <!-- Sidebar Widget - Subscription Form -->
+                </aside>
+                <!-- Sidebar Block -->
+              </div>
+              <!-- Blog Area -->
+            </div>
+            <!-- Section Container -->
+          </div>
+          <!-- Section Space -->
+        </div>
+        <!--...::: Blog Details Section End :::... -->
+
+        <!--...::: Text SLider Section Start :::... -->
+        <div class="section-text-slider">
+          <div class="bg-colorTextTitle py-8 lg:py-10 xl:py-[50px]">
+            <!-- Text SLider Wrapper-->
+            <div class="infinite-text-slider flex gap-6 whitespace-nowrap">
+              <!-- Text Slider Item -->
+              <div class="mx-6 flex items-center">
+                <div class="display-heading display-heading-2 text-white">
+                  Digital Marketing Agency
+                </div>
+                <img
+                  src="assets/img/images/home-1/text-star-white.svg"
+                  alt="text-star-white"
+                  width="57"
+                  height="55"
+                  class="mx-6 inline-block"
+                />
+              </div>
+              <!-- Text Slider Item -->
+              <!-- Text Slider Item -->
+              <div class="mx-6 flex items-center">
+                <div class="display-heading display-heading-2 text-white">
+                  Start Up Business
+                </div>
+                <img
+                  src="assets/img/images/home-1/text-star-white.svg"
+                  alt="text-star-white"
+                  width="57"
+                  height="55"
+                  class="mx-6 inline-block"
+                />
+              </div>
+              <!-- Text Slider Item -->
+              <!-- Text Slider Item -->
+              <div class="mx-6 flex items-center">
+                <div class="display-heading display-heading-2 text-white">
+                  Social Media Marketing
+                </div>
+                <img
+                  src="assets/img/images/home-1/text-star-white.svg"
+                  alt="text-star-white"
+                  width="57"
+                  height="55"
+                  class="mx-6 inline-block"
+                />
+              </div>
+              <!-- Text Slider Item -->
+              <!-- Text Slider Item -->
+              <div class="mx-6 flex items-center">
+                <div class="display-heading display-heading-2 text-white">
+                  Digital Marketing Agency
+                </div>
+                <img
+                  src="assets/img/images/home-1/text-star-white.svg"
+                  alt="text-star-white"
+                  width="57"
+                  height="55"
+                  class="mx-6 inline-block"
+                />
+              </div>
+              <!-- Text Slider Item -->
+              <!-- Text Slider Item -->
+              <div class="mx-6 flex items-center">
+                <div class="display-heading display-heading-2 text-white">
+                  Start Up Business
+                </div>
+                <img
+                  src="assets/img/images/home-1/text-star-white.svg"
+                  alt="text-star-white"
+                  width="57"
+                  height="55"
+                  class="mx-6 inline-block"
+                />
+              </div>
+              <!-- Text Slider Item -->
+              <!-- Text Slider Item -->
+              <div class="mx-6 flex items-center">
+                <div class="display-heading display-heading-2 text-white">
+                  Social Media Marketing
+                </div>
+                <img
+                  src="assets/img/images/home-1/text-star-white.svg"
+                  alt="text-star-white"
+                  width="57"
+                  height="55"
+                  class="mx-6 inline-block"
+                />
+              </div>
+              <!-- Text Slider Item -->
+            </div>
+            <!-- Text SLider Wrapper-->
+          </div>
+        </div>
+        <!--...::: Text SLider Section End :::... -->
+
+        <!--...::: CTA Section Start :::... -->
+        <section class="section-cta">
+          <!-- Section Space -->
+          <div class="section-space relative">
+            <!-- Section Container -->
+            <div class="container">
+              <!-- CTA Area -->
+              <div
+                class="flex flex-wrap items-center justify-center gap-10 sm:flex-nowrap sm:justify-between"
+              >
+                <!-- Section Block -->
+                <div class="sm:max-w-[820px] sm:flex-1">
+                  <h2 class="jos">
+                    Let's embark on a digital journey together!
+                    <img
+                      src="assets/img/images/home-5/icon-union.svg"
+                      alt="icon-union"
+                      width="83"
+                      height="80"
+                      class="inline h-auto w-10 lg:w-16"
+                    />
+                  </h2>
+                </div>
+                <!-- Section Block -->
+
+                <a class='group relative inline-flex h-20 w-20 items-center justify-center overflow-hidden rounded-full bg-colorPurpleLight lg:h-[100px] lg:w-[100px] xl:h-[120px] xl:w-[120px]' href='contact'>
+                  <span
+                    class="transition-default translate-x-0 translate-y-0 text-6xl text-colorTextTitle group-hover:-translate-y-full group-hover:translate-x-full"
+                    ><i class="ri-arrow-right-up-line"></i
+                  ></span>
+                  <span
+                    class="transition-default absolute -translate-x-full translate-y-full text-6xl text-colorTextTitle group-hover:translate-x-0 group-hover:translate-y-0"
+                    ><i class="ri-arrow-right-up-line"></i
+                  ></span>
+                </a>
+              </div>
+              <!-- CTA Area -->
+            </div>
+            <!-- Section Container -->
+
+            <!-- Background Element -->
+            <img
+              src="assets/img/images/home-5/background-shape-1.svg"
+              alt="background-shape-1"
+              width="273"
+              height="204"
+              class="absolute left-5 top-1 -z-10 hidden xxxl:inline-block"
+            />
+            <!-- Background Element -->
+          </div>
+          <!-- Section Space -->
+
+          <!-- Separator Border -->
+          <div
+            class="mx-auto h-px w-full max-w-full bg-colorBorder px-5 sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] xxl:max-w-[1330px]"
+          ></div>
+          <!-- Separator Border -->
+        </section>
+        <!--...::: CTA Section End :::... -->
+      </main>
+      <!-- Main Wrapper -->
+
+      <!--...::: Footer Section Start :::... -->
+      <footer class="section-footer">
+        <!-- Footer Top -->
+        <div class="pb-14 pt-14 lg:pt-[100px]">
+          <!-- Container -->
+          <div class="container">
+            <!-- Footer Top Area -->
+            <div class="flex flex-wrap gap-10 xl:justify-between">
+              <!-- Footer Widget - Info -->
+              <div class="max-w-sm">
+                <a class='inline-block' href='index.html'>
+                  <img
+                    src="assets/img/images/logo.png"
+                    alt="logo"
+                    width="112"
+                    height="40"
+                  />
+                </a>
+                <p class="my-6">
+                  Sofax is best softwere platform manage your sales depends on
+                  your specific business needs budget & industry.
+                </p>
+
+                <div class="flex gap-6">
+                  <a
+                    href="https://www.x.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight"
+                  >
+                    <i class="ri-twitter-x-line"></i>
+                  </a>
+                  <a
+                    href="https://www.x.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight"
+                  >
+                    <i class="ri-facebook-fill"></i>
+                  </a>
+                  <a
+                    href="https://www.x.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight"
+                  >
+                    <i class="ri-instagram-line"></i>
+                  </a>
+                  <a
+                    href="https://www.x.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight"
+                  >
+                    <i class="ri-linkedin-fill"></i>
+                  </a>
+                </div>
+              </div>
+              <!-- Footer Widget - Info -->
+
+              <!-- Footer Widget - Navigation -->
+              <div>
+                <span class="display-heading display-heading-5 mb-6 block"
+                  >Company</span
+                >
+
+                <nav class="flex flex-col gap-y-4">
+                  <a class='hover:text-colorBody hover:font-medium' href='about'>About Us</a
+                  >
+                  <a class='hover:text-colorBody hover:font-medium' href='contact'>Contact US</a
+                  >
+                  <a class='hover:text-colorBody hover:font-medium' href='contact'>Privacy Policy
+                  </a>
+                  <a class='hover:text-colorBody hover:font-medium' href='terms-condition'>Terms & Conditions</a
+                  >
+                </nav>
+              </div>
+              <!-- Footer Widget - Navigation -->
+
+              <!-- Footer Widget - Navigation -->
+              <div>
+                <span class="display-heading display-heading-5 mb-6 block"
+                  >Utility Pages</span
+                >
+
+                <div class="flex flex-col gap-y-4">
+                  <a class='hover:text-colorBody hover:font-medium' href='contact'>Instructions</a
+                  >
+                  <a class='hover:text-colorBody hover:font-medium' href='contact'>Style Guide</a
+                  >
+                  <a class='hover:text-colorBody hover:font-medium' href='error-404'>404 Pages
+                  </a>
+                  <a class='hover:text-colorBody hover:font-medium' href='contact'>Licenses</a
+                  >
+                </div>
+              </div>
+              <!-- Footer Widget - Navigation -->
+
+              <!-- Footer Widget - Subscribe Form -->
+              <div class="max-w-72">
+                <span class="display-heading display-heading-5 mb-6 block"
+                  >Subscribe to our newsletter</span
+                >
+
+                <form action="blog-details#" method="post">
+                  <input
+                    type="email"
+                    placeholder="Enter your email"
+                    class="w-full rounded-[50px] border border-colorTextTitle bg-white px-11 py-3"
+                  />
+                  <button
+                    type="submit"
+                    class="btn btn-primary mt-3 flex w-full"
+                  >
+                    <span>Subscribe now</span>
+                    <span>Subscribe now</span>
+                  </button>
+                </form>
+              </div>
+              <!-- Footer Widget - Subscribe Form -->
+            </div>
+            <!-- Footer Top Area -->
+          </div>
+          <!-- Container -->
+        </div>
+        <!-- Footer Top -->
+
+        <!-- Footer Bottom -->
+        <div>
+          <!-- Container -->
+          <div class="container">
+            <div class="border-t border-colorBorder py-9 text-center">
+              © 2024 Mthemeus All Rights Reserved.
+            </div>
+          </div>
+          <!-- Container -->
+        </div>
+        <!-- Footer Bottom -->
+      </footer>
+      <!--...::: Footer Section Start :::... -->
+    </div>
+
+    <!--Vendor js-->
+    <script src="assets/js/vendors/counterup.js"></script>
+    <script src="assets/js/vendors/swiper-bundle.min.js"></script>
+    <script src="assets/js/vendors/fslightbox.js"></script>
+    <script src="assets/js/vendors/jos.min.js"></script>
+    <script src="assets/js/vendors/menu.js"></script>
+
+    <!-- Main js -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

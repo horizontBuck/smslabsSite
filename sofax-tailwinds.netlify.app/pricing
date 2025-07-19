@@ -1,0 +1,1264 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sofax | SASS & Startup Tailwind Template</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- Site font -->
+    <link rel="stylesheet" href="assets/fonts/iconfonts/remixicon.css" />
+    <link rel="stylesheet" href="assets/fonts/webfonts/fonts.css" />
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="assets/css/vendors/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/css/vendors/jos.css" />
+    <link rel="stylesheet" href="assets/css/vendors/menu.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/custom.css" />
+
+    <!-- Development css -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- Production css -->
+    <!-- <link rel="stylesheet" href="/assets/css/style.min.css" /> -->
+  </head>
+
+  <body class="relative">
+    <div class="page-wrapper relative">
+      <!-- ...::: Header Section Start :::... -->
+      <header
+        class="section-header site-header fixed top-0 z-30 w-full bg-colorTextTitle/80 py-2"
+      >
+        <!-- Section Container -->
+        <div class="container">
+          <!-- Header Area -->
+          <div class="flex items-center justify-between">
+            <!-- Header Left Block -->
+            <div>
+              <!-- Header Logo -->
+              <a class='h-auto w-auto' href='index.html'>
+                <img
+                  src="assets/img/images/logo-alter.png"
+                  alt="logo"
+                  width="112"
+                  height="40"
+                />
+              </a>
+              <!-- Header Logo -->
+            </div>
+            <!-- Header Left Block -->
+
+            <!-- Header Navigation -->
+            <div class="menu-block-wrapper">
+              <div class="menu-overlay"></div>
+              <nav class="menu-block" id="append-menu-header">
+                <div class="mobile-menu-head">
+                  <div class="go-back">
+                    <i class="ri-arrow-left-s-fill"></i>
+                  </div>
+                  <div class="current-menu-title"></div>
+                  <div class="mobile-menu-close">&times;</div>
+                </div>
+                <ul class="site-menu-main">
+                  <li class="nav-item nav-item-has-children">
+                    <a
+                      href="pricing#"
+                      class="nav-link-item drop-trigger text-black lg:text-white"
+                      >Demo <i class="ri-arrow-down-s-fill"></i>
+                    </a>
+                    <ul class="sub-menu" id="submenu-0">
+                      <li class="sub-menu--item nav-item-has-children">
+                        <a href="pricing#" data-menu-get="h3" class="drop-trigger"
+                          >Multi Page
+                          <i class="ri-arrow-right-s-fill"></i>
+                        </a>
+                        <ul class="sub-menu shape-none" id="submenu-1">
+                          <li class="sub-menu--item">
+                            <a href='index.html'>Sales Management</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='index-2'>Crypto App</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='index-3'>Team Management</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='index-4'>SMM Agency</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='index-5'>Digital Agency </a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='index-6'>CRM</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='index-7'>AI SAAS</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='index-8'>IT Services</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='index-9'>Email Marketing</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='index-10'>Web Hosting</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="sub-menu--item nav-item-has-children">
+                        <a href="pricing#" data-menu-get="h3" class="drop-trigger"
+                          >One Page
+                          <i class="ri-arrow-right-s-fill"></i>
+                        </a>
+                        <ul class="sub-menu shape-none" id="submenu-9">
+                          <li class="sub-menu--item">
+                            <a href='index-op-1'>Sales Management</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='index-op-2'>Crypto App</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='index-op-3'>Team Management</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='index-op-4'>SMM Agency</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='index-op-5'>Digital Agency </a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='index-op-6'>CRM</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='index-op-7'>AI SAAS</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='index-op-8'>IT Services</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='index-op-9'>Email Marketing</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='index-op-10'>Web Hosting</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class='nav-link-item text-white' href='about'>About</a
+                    >
+                  </li>
+                  <li class="nav-item nav-item-has-children">
+                    <a
+                      href="pricing#"
+                      class="nav-link-item drop-trigger text-black lg:text-white"
+                      >Services
+                      <i class="ri-arrow-down-s-fill"></i>
+                    </a>
+                    <ul class="sub-menu" id="submenu-2">
+                      <li class="sub-menu--item">
+                        <a href='services'>Services</a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href='service-details'>Service Details</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item nav-item-has-children">
+                    <a
+                      href="pricing#"
+                      class="nav-link-item drop-trigger text-black lg:text-white"
+                      >Blog
+                      <i class="ri-arrow-down-s-fill"></i>
+                    </a>
+                    <ul class="sub-menu" id="submenu-3">
+                      <li class="sub-menu--item">
+                        <a href='blog'>Blogs</a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href='blog-details'>Blogs Details</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item nav-item-has-children">
+                    <a
+                      href="pricing#"
+                      class="nav-link-item drop-trigger text-black lg:text-white"
+                      >Pages <i class="ri-arrow-down-s-fill"></i>
+                    </a>
+                    <ul class="sub-menu" id="submenu-4">
+                      <li class="sub-menu--item nav-item-has-children">
+                        <a href="pricing#" data-menu-get="h3" class="drop-trigger"
+                          >Team
+                          <i class="ri-arrow-right-s-fill"></i>
+                        </a>
+                        <ul class="sub-menu shape-none" id="submenu-5">
+                          <li class="sub-menu--item">
+                            <a href='team'>Teams</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='team-details'>Teams Details</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="sub-menu--item nav-item-has-children">
+                        <a href="pricing#" data-menu-get="h3" class="drop-trigger"
+                          >Portfolio
+                          <i class="ri-arrow-right-s-fill"></i>
+                        </a>
+                        <ul class="sub-menu shape-none" id="submenu-6">
+                          <li class="sub-menu--item">
+                            <a href='portfolio'>Portfolio</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='portfolio-details'>Portfolio Details</a
+                            >
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="sub-menu--item nav-item-has-children">
+                        <a href="pricing#" data-menu-get="h3" class="drop-trigger"
+                          >Careers
+                          <i class="ri-arrow-right-s-fill"></i>
+                        </a>
+                        <ul class="sub-menu shape-none" id="submenu-7">
+                          <li class="sub-menu--item">
+                            <a href='career'>Careers</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='career-details'>Careers Details</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a class='drop-trigger' data-menu-get='h3' href='faq'>FAQ
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a class='drop-trigger' data-menu-get='h3' href='pricing'>Pricing
+                        </a>
+                      </li>
+                      <li class="sub-menu--item nav-item-has-children">
+                        <a href="pricing#" data-menu-get="h3" class="drop-trigger"
+                          >Utilities
+                          <i class="ri-arrow-right-s-fill"></i>
+                        </a>
+                        <ul class="sub-menu shape-none" id="submenu-8">
+                          <li class="sub-menu--item">
+                            <a href='terms-condition'>Terms & Condition</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='login'>Login</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='signup'>Signup</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='reset-password'>Reset Password</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='coming-soon'>Coming Soon</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href='error-404'>Error 404</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class='nav-link-item text-white' href='contact'>Contact</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <!-- Header Navigation -->
+
+            <!-- Header Right Block -->
+            <div class="flex items-center gap-x-6">
+              <a class='btn btn-primary relative hidden min-w-0 px-[30px] py-[10px] sm:inline-flex' href='contact'>
+                <span>Contact Us</span>
+                <span>Contact Us</span>
+              </a>
+
+              <!-- Responsive Offcanvas Menu Button -->
+              <div class="block lg:hidden">
+                <button id="openBtn" class="hamburger-menu mobile-menu-trigger">
+                  <span class="bg-white before:bg-white after:bg-white"></span>
+                </button>
+              </div>
+            </div>
+            <!-- Header Right Block -->
+          </div>
+          <!-- Header Area -->
+        </div>
+        <!-- Section Container -->
+      </header>
+      <!-- ...::: Header Section End :::... -->
+
+      <!-- Main Wrapper -->
+      <main class="main-wrapper relative overflow-x-clip">
+        <!--...::: Breadcrumb Section Start :::... -->
+        <section class="section-breadcrumb">
+          <!-- Breadcrumb Background -->
+          <div class="bg-colorTextTitle">
+            <!-- Breadcrumb Space -->
+            <div class="breadcrumb-space">
+              <!-- Breadcrumb Container -->
+              <div class="container">
+                <div class="text-center text-white">
+                  <h1 class="mb-[50px] text-white">Pricing</h1>
+                  <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                      <li class="breadcrumb-item">
+                        <a href='index.html'>Home</a>
+                      </li>
+                      <li class="breadcrumb-item active" aria-current="page">
+                        Pricing
+                      </li>
+                    </ol>
+                  </nav>
+                </div>
+              </div>
+              <!-- Breadcrumb Container -->
+            </div>
+            <!-- Breadcrumb Space -->
+          </div>
+          <!-- Breadcrumb Background -->
+        </section>
+        <!--...::: Breadcrumb Section End :::... -->
+
+        <!--...::: Pricing Section Start :::... -->
+        <section class="section-pricing">
+          <!-- Section Background -->
+          <div class="bg-colorGrey">
+            <!-- Section Space -->
+            <div class="section-space">
+              <!-- Section Container -->
+              <div class="container">
+                <!-- Section Block -->
+                <div
+                  class="mx-auto mb-10 max-w-[710px] text-center md:mb-[60px] lg:mb-20"
+                >
+                  <h2 class="jos">Discover the right price plan for you</h2>
+                </div>
+                <!-- Section Block -->
+
+                <!-- Pricing Area -->
+                <div>
+                  <!-- Pricing Button Block -->
+                  <div
+                    class="my-[50px] flex flex-row items-center justify-center gap-6"
+                  >
+                    <span class="font-bold">Per Month</span>
+
+                    <!-- Toggle Button -->
+                    <label
+                      for="toggle"
+                      class="flex cursor-pointer items-center"
+                    >
+                      <!-- toggle -->
+                      <span
+                        class="relative inline-block h-[35px] w-[70px] rounded-[35px] bg-colorPurpleLight"
+                      >
+                        <!-- hidden input -->
+                        <input
+                          id="toggle"
+                          type="checkbox"
+                          class="peer hidden"
+                          onclick="toggleSwitch()"
+                        />
+                        <!-- dot -->
+                        <span
+                          class="toggle_dot absolute left-[5px] top-1/2 h-[25px] w-[25px] -translate-y-1/2 rounded-full bg-black transition-all duration-300 peer-checked:translate-x-[33px]"
+                        ></span>
+                      </span>
+                    </label>
+                    <!-- Toggle Button -->
+                    <span class="font-bold">Per Year</span>
+                  </div>
+                  <!-- Pricing Button Block -->
+
+                  <!-- Pricing List -->
+                  <ul
+                    class="grid grid-cols-1 gap-x-6 gap-y-10 md:grid-cols-2 xl:grid-cols-3"
+                  >
+                    <!-- Pricing Item -->
+                    <li
+                      class="jos rounded-[10px] p-10 shadow-custom-1"
+                      data-jos_animation="flip-left"
+                    >
+                      <span class="display-heading display-heading-4 mb-4 block"
+                        >Essential</span
+                      >
+                      <!-- Pricing Value -->
+                      <div>
+                        <span class="month display-heading display-heading-2"
+                          >$19
+                          <span
+                            class="pl-4 text-lg font-normal tracking-normal text-colorTextBody"
+                            >/Per Month</span
+                          >
+                        </span>
+                        <span
+                          class="annual display-heading display-heading-2 hidden"
+                          >$220<span
+                            class="pl-4 text-lg font-normal tracking-normal text-colorTextBody"
+                            >/Per Year</span
+                          >
+                        </span>
+                      </div>
+                      <!-- Pricing Value -->
+                      <div class="my-6 h-px w-full bg-colorBorder"></div>
+                      <span
+                        class="mb-5 block text-lg font-semibold text-colorTextTitle"
+                        >Key features:</span
+                      >
+                      <!-- Price Info List -->
+                      <ul
+                        class="mb-10 grid grid-cols-1 gap-y-4 font-semibold text-colorTextTitle"
+                      >
+                        <li class="flex gap-2">
+                          <span class="text-xl">
+                            <i class="ri-checkbox-circle-fill"></i>
+                          </span>
+                          Full email sync with templates, open, click tracking &
+                          emailing
+                        </li>
+                        <li class="flex gap-2">
+                          <span class="text-xl">
+                            <i class="ri-checkbox-circle-fill"></i>
+                          </span>
+                          Automation builder, including email sequences
+                        </li>
+                        <li class="flex gap-2">
+                          <span class="text-xl">
+                            <i class="ri-checkbox-circle-fill"></i>
+                          </span>
+                          Meeting, email and video call
+                        </li>
+                      </ul>
+                      <!-- Price Info List -->
+                      <a class='btn btn-outline-black block' href='pricing'>Purchase now</a
+                      >
+                    </li>
+                    <!-- Pricing Item -->
+                    <!-- Pricing Item -->
+                    <li
+                      class="jos rounded-[10px] p-10 shadow-custom-1"
+                      data-jos_animation="flip-left"
+                    >
+                      <span class="display-heading display-heading-4 mb-4 block"
+                        >Professional</span
+                      >
+                      <!-- Pricing Value -->
+                      <div>
+                        <span class="month display-heading display-heading-2"
+                          >$49
+                          <span
+                            class="pl-4 text-lg font-normal tracking-normal text-colorTextBody"
+                            >/Per Month</span
+                          >
+                        </span>
+                        <span
+                          class="annual display-heading display-heading-2 hidden"
+                          >$520<span
+                            class="pl-4 text-lg font-normal tracking-normal text-colorTextBody"
+                            >/Per Year</span
+                          >
+                        </span>
+                      </div>
+                      <!-- Pricing Value -->
+                      <div class="my-6 h-px w-full bg-colorBorder"></div>
+                      <span
+                        class="mb-5 block text-lg font-semibold text-colorTextTitle"
+                        >Key features:</span
+                      >
+                      <!-- Price Info List -->
+                      <ul
+                        class="mb-10 grid grid-cols-1 gap-y-4 font-semibold text-colorTextTitle"
+                      >
+                        <li class="flex gap-2">
+                          <span class="text-xl">
+                            <i class="ri-checkbox-circle-fill"></i>
+                          </span>
+                          Lead, deal, contact, calendar and pipeline management
+                        </li>
+                        <li class="flex gap-2">
+                          <span class="text-xl">
+                            <i class="ri-checkbox-circle-fill"></i>
+                          </span>
+                          Seamless data import and 400+ integrations
+                        </li>
+                        <li class="flex gap-2">
+                          <span class="text-xl">
+                            <i class="ri-checkbox-circle-fill"></i>
+                          </span>
+                          24/7, multi-language support
+                        </li>
+                      </ul>
+                      <!-- Price Info List -->
+                      <a class='btn btn-primary block' href='pricing'>Purchase now</a
+                      >
+                    </li>
+                    <!-- Pricing Item -->
+                    <!-- Pricing Item -->
+                    <li
+                      class="jos rounded-[10px] p-10 shadow-custom-1"
+                      data-jos_animation="flip-left"
+                    >
+                      <span class="display-heading display-heading-4 mb-4 block"
+                        >Enterprise</span
+                      >
+                      <!-- Pricing Value -->
+                      <div>
+                        <span class="month display-heading display-heading-2"
+                          >$129
+                          <span
+                            class="pl-4 text-lg font-normal tracking-normal text-colorTextBody"
+                            >/Per Month</span
+                          >
+                        </span>
+                        <span
+                          class="annual display-heading display-heading-2 hidden"
+                          >$1200<span
+                            class="pl-4 text-lg font-normal tracking-normal text-colorTextBody"
+                            >/Per Year</span
+                          >
+                        </span>
+                      </div>
+                      <!-- Pricing Value -->
+                      <div class="my-6 h-px w-full bg-colorBorder"></div>
+                      <span
+                        class="mb-5 block text-lg font-semibold text-colorTextTitle"
+                        >Key features:</span
+                      >
+                      <!-- Price Info List -->
+                      <ul
+                        class="mb-10 grid grid-cols-1 gap-y-4 font-semibold text-colorTextTitle"
+                      >
+                        <li class="flex gap-2">
+                          <span class="text-xl">
+                            <i class="ri-checkbox-circle-fill"></i>
+                          </span>
+                          Streamlined lead routing and account access control
+                        </li>
+                        <li class="flex gap-2">
+                          <span class="text-xl">
+                            <i class="ri-checkbox-circle-fill"></i>
+                          </span>
+                          Document and contract management with e-signatures
+                        </li>
+                        <li class="flex gap-2">
+                          <span class="text-xl">
+                            <i class="ri-checkbox-circle-fill"></i>
+                          </span>
+                          Revenue forecasts & reporting
+                        </li>
+                      </ul>
+                      <!-- Price Info List -->
+                      <a class='btn btn-outline-black block' href='pricing'>Purchase now</a
+                      >
+                    </li>
+                    <!-- Pricing Item -->
+                  </ul>
+                  <!-- Pricing List -->
+                </div>
+                <!-- Pricing Area -->
+              </div>
+              <!-- Section Container -->
+            </div>
+            <!-- Section Space -->
+          </div>
+          <!-- Section Background -->
+        </section>
+        <!--...::: Pricing Section End :::... -->
+
+        <!--...::: Text SLider Section Start :::... -->
+        <div class="section-text-slider">
+          <div class="bg-colorTextTitle py-8 lg:py-10 xl:py-[50px]">
+            <!-- Text SLider Wrapper-->
+            <div class="infinite-text-slider flex gap-6 whitespace-nowrap">
+              <!-- Text Slider Item -->
+              <div class="mx-6 flex items-center">
+                <div class="display-heading display-heading-2 text-white">
+                  Digital Marketing Agency
+                </div>
+                <img
+                  src="assets/img/images/home-1/text-star-white.svg"
+                  alt="text-star-white"
+                  width="57"
+                  height="55"
+                  class="mx-6 inline-block"
+                />
+              </div>
+              <!-- Text Slider Item -->
+              <!-- Text Slider Item -->
+              <div class="mx-6 flex items-center">
+                <div class="display-heading display-heading-2 text-white">
+                  Start Up Business
+                </div>
+                <img
+                  src="assets/img/images/home-1/text-star-white.svg"
+                  alt="text-star-white"
+                  width="57"
+                  height="55"
+                  class="mx-6 inline-block"
+                />
+              </div>
+              <!-- Text Slider Item -->
+              <!-- Text Slider Item -->
+              <div class="mx-6 flex items-center">
+                <div class="display-heading display-heading-2 text-white">
+                  Social Media Marketing
+                </div>
+                <img
+                  src="assets/img/images/home-1/text-star-white.svg"
+                  alt="text-star-white"
+                  width="57"
+                  height="55"
+                  class="mx-6 inline-block"
+                />
+              </div>
+              <!-- Text Slider Item -->
+              <!-- Text Slider Item -->
+              <div class="mx-6 flex items-center">
+                <div class="display-heading display-heading-2 text-white">
+                  Digital Marketing Agency
+                </div>
+                <img
+                  src="assets/img/images/home-1/text-star-white.svg"
+                  alt="text-star-white"
+                  width="57"
+                  height="55"
+                  class="mx-6 inline-block"
+                />
+              </div>
+              <!-- Text Slider Item -->
+              <!-- Text Slider Item -->
+              <div class="mx-6 flex items-center">
+                <div class="display-heading display-heading-2 text-white">
+                  Start Up Business
+                </div>
+                <img
+                  src="assets/img/images/home-1/text-star-white.svg"
+                  alt="text-star-white"
+                  width="57"
+                  height="55"
+                  class="mx-6 inline-block"
+                />
+              </div>
+              <!-- Text Slider Item -->
+              <!-- Text Slider Item -->
+              <div class="mx-6 flex items-center">
+                <div class="display-heading display-heading-2 text-white">
+                  Social Media Marketing
+                </div>
+                <img
+                  src="assets/img/images/home-1/text-star-white.svg"
+                  alt="text-star-white"
+                  width="57"
+                  height="55"
+                  class="mx-6 inline-block"
+                />
+              </div>
+              <!-- Text Slider Item -->
+            </div>
+            <!-- Text SLider Wrapper-->
+          </div>
+        </div>
+        <!--...::: Text SLider Section End :::... -->
+
+        <!--...::: Testimonial Section Start :::... -->
+        <section class="section-testimonial">
+          <!-- Section Space -->
+          <div class="section-space">
+            <!-- Section Container -->
+            <div class="container">
+              <!-- Testimonial Area -->
+              <div
+                class="grid grid-cols-1 gap-x-12 gap-y-[50px] lg:grid-cols-[1fr_minmax(0,0.85fr)]"
+              >
+                <div>
+                  <!-- Section Block -->
+                  <div class="mb-[50px]">
+                    <h2 class="jos">See what our clients have said about us</h2>
+                    <p class="jos mt-5">
+                      We offer a range of services to help clients establish &
+                      enhance their digital presence, reach their target
+                      audience and achieve their online marketing goals.
+                    </p>
+                  </div>
+                  <!-- Section Block -->
+                  <div class="flex gap-6">
+                    <div
+                      class="testimonial-slider-button-prev transition-default inline-flex h-[50px] w-[50px] items-center justify-center rounded-[50px] border-2 border-colorTextTitle text-4xl text-colorTextTitle hover:border-colorPurpleLight hover:bg-colorPurpleLight"
+                    >
+                      <span>
+                        <i class="ri-arrow-left-line"></i>
+                      </span>
+                    </div>
+                    <div
+                      class="testimonial-slider-button-next transition-default inline-flex h-[50px] w-[50px] items-center justify-center rounded-[50px] border-2 border-colorTextTitle text-4xl text-colorTextTitle hover:border-colorPurpleLight hover:bg-colorPurpleLight"
+                    >
+                      <span>
+                        <i class="ri-arrow-right-line"></i>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <!-- Testimonial Slider -->
+                  <div class="testimonial-slider-3 swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide">
+                        <div
+                          class="rounded-md border border-b-[6px] border-r-[6px] border-colorTextTitle bg-white p-9"
+                        >
+                          <!-- Review Star -->
+                          <div
+                            class="inline-flex gap-x-1 text-2xl text-colorYellow"
+                          >
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-half-line"></i>
+                          </div>
+                          <!-- Review Star -->
+                          <blockquote class="my-5 text-colorTextTitle">
+                            Great results enjoyable to the works with & most
+                            importanly enabled us to the presence on the website
+                            needed conduct business.
+                          </blockquote>
+
+                          <div class="flex items-center gap-2.5">
+                            <div class="h-14 w-14 overflow-hidden rounded-full">
+                              <img
+                                src="assets/img/images/home-1/testimonial-user-img-1.jpg"
+                                alt="testimonial-user-img-1"
+                                width="55"
+                                height="55"
+                                class="h-full w-full object-cover"
+                              />
+                            </div>
+                            <div class="flex-1">
+                              <span class="block font-bold text-colorTextTitle"
+                                >Derrick Turner</span
+                              >
+                              <span class="text-sm">Co-Founder</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div
+                          class="rounded-md border border-b-[6px] border-r-[6px] border-colorTextTitle bg-white p-9"
+                        >
+                          <!-- Review Star -->
+                          <div
+                            class="inline-flex gap-x-1 text-2xl text-colorYellow"
+                          >
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-half-line"></i>
+                          </div>
+                          <!-- Review Star -->
+                          <blockquote class="my-5 text-colorTextTitle">
+                            Great results enjoyable to the works with & most
+                            importanly enabled us to the presence on the website
+                            needed conduct business.
+                          </blockquote>
+
+                          <div class="flex items-center gap-2.5">
+                            <div class="h-14 w-14 overflow-hidden rounded-full">
+                              <img
+                                src="assets/img/images/home-1/testimonial-user-img-1.jpg"
+                                alt="testimonial-user-img-1"
+                                width="55"
+                                height="55"
+                                class="h-full w-full object-cover"
+                              />
+                            </div>
+                            <div class="flex-1">
+                              <span class="block font-bold text-colorTextTitle"
+                                >Derrick Turner</span
+                              >
+                              <span class="text-sm">Co-Founder</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <div
+                          class="rounded-md border border-b-[6px] border-r-[6px] border-colorTextTitle bg-white p-9"
+                        >
+                          <!-- Review Star -->
+                          <div
+                            class="inline-flex gap-x-1 text-2xl text-colorYellow"
+                          >
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-half-line"></i>
+                          </div>
+                          <!-- Review Star -->
+                          <blockquote class="my-5 text-colorTextTitle">
+                            Great results enjoyable to the works with & most
+                            importanly enabled us to the presence on the website
+                            needed conduct business.
+                          </blockquote>
+
+                          <div class="flex items-center gap-2.5">
+                            <div class="h-14 w-14 overflow-hidden rounded-full">
+                              <img
+                                src="assets/img/images/home-1/testimonial-user-img-1.jpg"
+                                alt="testimonial-user-img-1"
+                                width="55"
+                                height="55"
+                                class="h-full w-full object-cover"
+                              />
+                            </div>
+                            <div class="flex-1">
+                              <span class="block font-bold text-colorTextTitle"
+                                >Derrick Turner</span
+                              >
+                              <span class="text-sm">Co-Founder</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Testimonial Slider -->
+                </div>
+              </div>
+              <!-- Testimonial Area -->
+            </div>
+            <!-- Section Container -->
+          </div>
+          <!-- Section Space -->
+        </section>
+        <!--...::: Testimonial Section End :::... -->
+
+        <!--...::: FAQ Section Start :::... -->
+        <section class="section-faq">
+          <!-- Section Background -->
+          <div class="bg-colorGrey">
+            <!-- Section Space -->
+            <div class="section-space">
+              <!-- Section Container -->
+              <div class="container">
+                <!-- Section Container -->
+                <!-- Section Block -->
+                <div
+                  class="mx-auto mb-10 max-w-2xl text-center md:mb-[60px] lg:mb-20"
+                >
+                  <h2>If you want to know anything asked us</h2>
+                </div>
+                <!-- Section Block -->
+
+                <div class="grid grid-cols-1 gap-6 lg:grid-cols-2">
+                  <!-- Accordion List -->
+                  <ul class="jos flex flex-col gap-6">
+                    <!-- Accordion Item -->
+                    <li class="accordion-item-style-2 accordion-item active">
+                      <!-- Accordion Header -->
+                      <div
+                        class="accordion-header flex items-center justify-between gap-6"
+                      >
+                        <button class="flex-1 text-left text-2xl font-semibold">
+                          What everybody ought to knoe about digital?
+                        </button>
+                        <div
+                          class="accordion-icon inline-flex h-[26px] w-[26px] items-center justify-center rounded-full bg-colorPurpleLight text-colorTextTitle"
+                        >
+                          <i class="ri-arrow-down-s-line"></i>
+                        </div>
+                      </div>
+                      <!-- Accordion Header -->
+                      <!-- Accordion Body -->
+                      <div class="accordion-body max-w-[826px] opacity-80">
+                        <p class="pt-4">
+                          Take a trivial example which undertakes laborious
+                          physical a exercise except to obtain some advantage
+                          pleasure.
+                        </p>
+                      </div>
+                      <!-- Accordion Body -->
+                    </li>
+                    <!-- Accordion Item -->
+                    <!-- Accordion Item -->
+                    <li class="accordion-item-style-2 accordion-item">
+                      <!-- Accordion Header -->
+                      <div
+                        class="accordion-header flex items-center justify-between gap-6"
+                      >
+                        <button class="flex-1 text-left text-2xl font-semibold">
+                          How do you approach strategic planning
+                        </button>
+                        <div
+                          class="accordion-icon inline-flex h-[26px] w-[26px] items-center justify-center rounded-full bg-colorPurpleLight text-colorTextTitle"
+                        >
+                          <i class="ri-arrow-down-s-line"></i>
+                        </div>
+                      </div>
+                      <!-- Accordion Header -->
+                      <!-- Accordion Body -->
+                      <div class="accordion-body max-w-[826px] opacity-80">
+                        <p class="pt-4">
+                          Connect your bank account securely to our platform for
+                          smooth and convenient transactions & it’s handled with
+                          the utmost security.
+                        </p>
+                      </div>
+                      <!-- Accordion Body -->
+                    </li>
+                    <!-- Accordion Item -->
+                    <!-- Accordion Item -->
+                    <li class="accordion-item-style-2 accordion-item">
+                      <!-- Accordion Header -->
+                      <div
+                        class="accordion-header flex items-center justify-between gap-6"
+                      >
+                        <button class="flex-1 text-left text-2xl font-semibold">
+                          Is there a guaranteed result?
+                        </button>
+                        <div
+                          class="accordion-icon inline-flex h-[26px] w-[26px] items-center justify-center rounded-full bg-colorPurpleLight text-colorTextTitle"
+                        >
+                          <i class="ri-arrow-down-s-line"></i>
+                        </div>
+                      </div>
+                      <!-- Accordion Header -->
+                      <!-- Accordion Body -->
+                      <div class="accordion-body max-w-[826px] opacity-80">
+                        <p class="pt-4">
+                          Once your account is set up and linked, dive into the
+                          world of cryptocurrency trading. Buy & sell a diverse
+                          range of digital assets.
+                        </p>
+                      </div>
+                      <!-- Accordion Body -->
+                    </li>
+                    <!-- Accordion Item -->
+                  </ul>
+                  <!-- Accordion List -->
+                  <!-- Accordion List -->
+                  <ul class="jos flex flex-col gap-6">
+                    <!-- Accordion Item -->
+                    <li class="accordion-item-style-2 accordion-item">
+                      <!-- Accordion Header -->
+                      <div
+                        class="accordion-header flex items-center justify-between gap-6"
+                      >
+                        <button class="flex-1 text-left text-2xl font-semibold">
+                          What services does Sofax provide?
+                        </button>
+                        <div
+                          class="accordion-icon inline-flex h-[26px] w-[26px] items-center justify-center rounded-full bg-colorPurpleLight text-colorTextTitle"
+                        >
+                          <i class="ri-arrow-down-s-line"></i>
+                        </div>
+                      </div>
+                      <!-- Accordion Header -->
+                      <!-- Accordion Body -->
+                      <div class="accordion-body max-w-[826px] opacity-80">
+                        <p class="pt-4">
+                          Effortlessly begin your cryptocurrency journey by
+                          downloading our user-friendly app. Within minutes, you
+                          can create a secure account.
+                        </p>
+                      </div>
+                      <!-- Accordion Body -->
+                    </li>
+                    <!-- Accordion Item -->
+                    <!-- Accordion Item -->
+                    <li class="accordion-item-style-2 accordion-item">
+                      <!-- Accordion Header -->
+                      <div
+                        class="accordion-header flex items-center justify-between gap-6"
+                      >
+                        <button class="flex-1 text-left text-2xl font-semibold">
+                          Is full outsourcing profitable?
+                        </button>
+                        <div
+                          class="accordion-icon inline-flex h-[26px] w-[26px] items-center justify-center rounded-full bg-colorPurpleLight text-colorTextTitle"
+                        >
+                          <i class="ri-arrow-down-s-line"></i>
+                        </div>
+                      </div>
+                      <!-- Accordion Header -->
+                      <!-- Accordion Body -->
+                      <div class="accordion-body max-w-[826px] opacity-80">
+                        <p class="pt-4">
+                          Connect your bank account securely to our platform for
+                          smooth and convenient transactions & it’s handled with
+                          the utmost security.
+                        </p>
+                      </div>
+                      <!-- Accordion Body -->
+                    </li>
+                    <!-- Accordion Item -->
+                    <!-- Accordion Item -->
+                    <li class="accordion-item-style-2 accordion-item">
+                      <!-- Accordion Header -->
+                      <div
+                        class="accordion-header flex items-center justify-between gap-6"
+                      >
+                        <button class="flex-1 text-left text-2xl font-semibold">
+                          What is a strategic to block?
+                        </button>
+                        <div
+                          class="accordion-icon inline-flex h-[26px] w-[26px] items-center justify-center rounded-full bg-colorPurpleLight text-colorTextTitle"
+                        >
+                          <i class="ri-arrow-down-s-line"></i>
+                        </div>
+                      </div>
+                      <!-- Accordion Header -->
+                      <!-- Accordion Body -->
+                      <div class="accordion-body max-w-[826px] opacity-80">
+                        <p class="pt-4">
+                          Once your account is set up and linked, dive into the
+                          world of cryptocurrency trading. Buy & sell a diverse
+                          range of digital assets.
+                        </p>
+                      </div>
+                      <!-- Accordion Body -->
+                    </li>
+                    <!-- Accordion Item -->
+                  </ul>
+                  <!-- Accordion List -->
+                </div>
+              </div>
+            </div>
+            <!-- Section Space -->
+          </div>
+          <!-- Section Background -->
+        </section>
+        <!--...::: FAQ Section End :::... -->
+
+        <!--...::: CTA Section Start :::... -->
+        <section class="section-cta">
+          <!-- Section Space -->
+          <div class="section-space relative">
+            <!-- Section Container -->
+            <div class="container">
+              <!-- CTA Area -->
+              <div
+                class="flex flex-wrap items-center justify-center gap-10 sm:flex-nowrap sm:justify-between"
+              >
+                <!-- Section Block -->
+                <div class="sm:max-w-[820px] sm:flex-1">
+                  <h2 class="jos">
+                    Let's embark on a digital journey together!
+                    <img
+                      src="assets/img/images/home-5/icon-union.svg"
+                      alt="icon-union"
+                      width="83"
+                      height="80"
+                      class="inline h-auto w-10 lg:w-16"
+                    />
+                  </h2>
+                </div>
+                <!-- Section Block -->
+
+                <a class='group relative inline-flex h-20 w-20 items-center justify-center overflow-hidden rounded-full bg-colorPurpleLight lg:h-[100px] lg:w-[100px] xl:h-[120px] xl:w-[120px]' href='contact'>
+                  <span
+                    class="transition-default translate-x-0 translate-y-0 text-6xl text-colorTextTitle group-hover:-translate-y-full group-hover:translate-x-full"
+                    ><i class="ri-arrow-right-up-line"></i
+                  ></span>
+                  <span
+                    class="transition-default absolute -translate-x-full translate-y-full text-6xl text-colorTextTitle group-hover:translate-x-0 group-hover:translate-y-0"
+                    ><i class="ri-arrow-right-up-line"></i
+                  ></span>
+                </a>
+              </div>
+              <!-- CTA Area -->
+            </div>
+            <!-- Section Container -->
+
+            <!-- Background Element -->
+            <img
+              src="assets/img/images/home-5/background-shape-1.svg"
+              alt="background-shape-1"
+              width="273"
+              height="204"
+              class="absolute left-5 top-1 -z-10 hidden xxxl:inline-block"
+            />
+            <!-- Background Element -->
+          </div>
+          <!-- Section Space -->
+
+          <!-- Separator Border -->
+          <div
+            class="mx-auto h-px w-full max-w-full bg-colorBorder px-5 sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] xxl:max-w-[1330px]"
+          ></div>
+          <!-- Separator Border -->
+        </section>
+        <!--...::: CTA Section End :::... -->
+      </main>
+      <!-- Main Wrapper -->
+
+      <!--...::: Footer Section Start :::... -->
+      <footer class="section-footer">
+        <!-- Footer Top -->
+        <div class="pb-14 pt-14 lg:pt-[100px]">
+          <!-- Container -->
+          <div class="container">
+            <!-- Footer Top Area -->
+            <div class="flex flex-wrap gap-10 xl:justify-between">
+              <!-- Footer Widget - Info -->
+              <div class="max-w-sm">
+                <a class='inline-block' href='index.html'>
+                  <img
+                    src="assets/img/images/logo.png"
+                    alt="logo"
+                    width="112"
+                    height="40"
+                  />
+                </a>
+                <p class="my-6">
+                  Sofax is best softwere platform manage your sales depends on
+                  your specific business needs budget & industry.
+                </p>
+
+                <div class="flex gap-6">
+                  <a
+                    href="https://www.x.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight"
+                  >
+                    <i class="ri-twitter-x-line"></i>
+                  </a>
+                  <a
+                    href="https://www.x.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight"
+                  >
+                    <i class="ri-facebook-fill"></i>
+                  </a>
+                  <a
+                    href="https://www.x.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight"
+                  >
+                    <i class="ri-instagram-line"></i>
+                  </a>
+                  <a
+                    href="https://www.x.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex h-10 w-10 items-center justify-center rounded-full bg-colorGrey text-lg hover:bg-colorPurpleLight"
+                  >
+                    <i class="ri-linkedin-fill"></i>
+                  </a>
+                </div>
+              </div>
+              <!-- Footer Widget - Info -->
+
+              <!-- Footer Widget - Navigation -->
+              <div>
+                <span class="display-heading display-heading-5 mb-6 block"
+                  >Company</span
+                >
+
+                <nav class="flex flex-col gap-y-4">
+                  <a class='hover:text-colorBody hover:font-medium' href='about'>About Us</a
+                  >
+                  <a class='hover:text-colorBody hover:font-medium' href='contact'>Contact US</a
+                  >
+                  <a class='hover:text-colorBody hover:font-medium' href='contact'>Privacy Policy
+                  </a>
+                  <a class='hover:text-colorBody hover:font-medium' href='terms-condition'>Terms & Conditions</a
+                  >
+                </nav>
+              </div>
+              <!-- Footer Widget - Navigation -->
+
+              <!-- Footer Widget - Navigation -->
+              <div>
+                <span class="display-heading display-heading-5 mb-6 block"
+                  >Utility Pages</span
+                >
+
+                <div class="flex flex-col gap-y-4">
+                  <a class='hover:text-colorBody hover:font-medium' href='contact'>Instructions</a
+                  >
+                  <a class='hover:text-colorBody hover:font-medium' href='contact'>Style Guide</a
+                  >
+                  <a class='hover:text-colorBody hover:font-medium' href='error-404'>404 Pages
+                  </a>
+                  <a class='hover:text-colorBody hover:font-medium' href='contact'>Licenses</a
+                  >
+                </div>
+              </div>
+              <!-- Footer Widget - Navigation -->
+
+              <!-- Footer Widget - Subscribe Form -->
+              <div class="max-w-72">
+                <span class="display-heading display-heading-5 mb-6 block"
+                  >Subscribe to our newsletter</span
+                >
+
+                <form action="pricing#" method="post">
+                  <input
+                    type="email"
+                    placeholder="Enter your email"
+                    class="w-full rounded-[50px] border border-colorTextTitle bg-white px-11 py-3"
+                  />
+                  <button
+                    type="submit"
+                    class="btn btn-primary mt-3 flex w-full"
+                  >
+                    <span>Subscribe now</span>
+                    <span>Subscribe now</span>
+                  </button>
+                </form>
+              </div>
+              <!-- Footer Widget - Subscribe Form -->
+            </div>
+            <!-- Footer Top Area -->
+          </div>
+          <!-- Container -->
+        </div>
+        <!-- Footer Top -->
+
+        <!-- Footer Bottom -->
+        <div>
+          <!-- Container -->
+          <div class="container">
+            <div class="border-t border-colorBorder py-9 text-center">
+              © 2024 Mthemeus All Rights Reserved.
+            </div>
+          </div>
+          <!-- Container -->
+        </div>
+        <!-- Footer Bottom -->
+      </footer>
+      <!--...::: Footer Section Start :::... -->
+    </div>
+
+    <!--Vendor js-->
+    <script src="assets/js/vendors/counterup.js"></script>
+    <script src="assets/js/vendors/swiper-bundle.min.js"></script>
+    <script src="assets/js/vendors/fslightbox.js"></script>
+    <script src="assets/js/vendors/jos.min.js"></script>
+    <script src="assets/js/vendors/menu.js"></script>
+
+    <!-- Main js -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
