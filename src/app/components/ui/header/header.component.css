@@ -1,0 +1,186 @@
+/* ---------------- Desktop & general ---------------- */
+
+/* Contenedor mega menú */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  /* width: 100vw; */  /* completamente ancho */
+  width: 30vw;
+  transform: translateX(-50%);
+  background: #fff;
+  box-shadow: 0 8px 16px rgba(0,0,0,.2);
+  z-index: 1000;
+  border-radius: 10px;
+}
+
+/* Mostrar mega menú en hover o toggle */
+.dropdown:hover .dropdown-content,
+.dropdown.open .dropdown-content {
+  display: block;
+}
+
+/* Cuerpo interno: sidebar y contenido */
+
+
+/* Sidebar de títulos */
+.mega-sidebar {
+  width: 200px;
+  border-right: 1px solid #eee;
+}
+.mega-sidebar .column {
+  padding: 1rem;
+  cursor: pointer;
+}
+.mega-sidebar .column.expanded h3 {
+  font-weight: bold;
+  border-left: 4px solid #088C8D;
+}
+
+/* Contenido dinámico principal */
+/* Contenido dinámico principal - VERSIÓN MEJORADA */
+.mega-main {
+  flex: auto;
+  padding: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); /* 1 columna */
+  gap: 1rem;
+  align-content: start; /* Alinea contenido al inicio */
+  max-height: 400px; /* Altura máxima para hacerlo más compacto */
+  overflow-y: auto; /* Scroll si hay mucho contenido */
+}
+
+.subcontent {
+  padding: 0 1rem;
+  border-left: 1px solid #eee;
+}
+
+.subcontent h4 {
+  margin-bottom: 0.8rem;
+  color: #088C8D;
+  font-size: 1rem;
+}
+
+.subcontent a {
+  display: block;
+  padding: 0.4rem 0;
+  color: #555;
+  text-decoration: none;
+  font-size: 0.9rem; /* Texto más pequeño */
+  transition: all 0.2s ease;
+}
+
+.subcontent a:hover {
+  color: #088C8D;
+  padding-left: 5px;
+}
+
+/* Ajuste del contenedor principal */
+.mega-body {
+  display: flex;
+  max-width: 900px; /* Reducimos el ancho total */
+  margin: auto;
+  min-height: 300px; /* Altura mínima */
+}
+
+/* Sidebar más compacto */
+.mega-sidebar {
+  width: 180px; /* Reducimos el ancho */
+  border-right: 1px solid #eee;
+  padding: 0.5rem 0;
+}
+
+.mega-sidebar .column {
+  padding: 0.8rem 1rem; /* Menos padding */
+}
+
+.mega-sidebar .column h3 {
+  font-size: 0.95rem; /* Texto más pequeño */
+  margin: 0;
+}
+
+.subcontent a {
+  display: block;
+  padding: .5rem 0;
+  color: #555;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  border-bottom: 1px solid transparent;
+}
+
+.subcontent a:hover {
+  color: #088C8D;
+  border-bottom: 1px solid #eee;
+}
+
+/* ---------------- Mobile / Tablet (≤768px) ---------------- */
+@media (max-width: 768px) {
+  .dropdown-content {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80vw;
+    height: 80vh;
+    background: #fff;
+    overflow-y: auto;
+    transform: none;
+    border-radius: 10px;
+    border: 0;
+    z-index: 2000;
+  }
+  .mega-body {
+    display: block;
+    padding: 1rem;
+  }
+  .mega-sidebar {
+    border-right: none;
+    width: 100%;
+  }
+  .mega-main {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 1rem 0;
+  }
+  .mega-sidebar .column h3 {
+    padding: .5rem 0;
+  }
+}
+
+/* ---------------- Tablet landscape (≤1024px) ---------------- */
+@media (max-width: 1024px) {
+  .dropdown-content {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 80vw !important;
+    height: 80vh;
+    background: var(--mobile-menu-bg, #222);
+    color: var(--mobile-menu-text, #fff);
+    overflow-y: auto;
+    z-index: 2000;
+    transform: none !important;
+  }
+  .mega-body {
+    display: block;
+    padding: 2rem;
+  }
+  .mega-sidebar .column h3 {
+    color: #fff;
+    border-left-color: #fff;
+  }
+  .mega-main .subcontent a {
+    color: #ddd;
+    padding-left: 1rem;
+  }
+  .mega-main .subcontent a:hover {
+    color: #fff;
+  }
+}
+
+/* ---------------- Desktop adjustments (≥1025px) ---------------- */
+@media (min-width: 1025px) {
+  .dropdown-content {
+    background: #fff;
+  }
+}
