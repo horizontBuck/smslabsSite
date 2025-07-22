@@ -6628,6 +6628,7 @@ input.main-search-input::placeholder {
   border: 1px solid var(--border);
   padding: 18px 20px;
   color: var(--title);
+  border-radius: 10px;
 }
 .wp-content .accordion-item .accordion-collapse {
   border: none;

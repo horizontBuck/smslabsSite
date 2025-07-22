@@ -4,10 +4,13 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class GlobalService {
-  activeRoute: string = '';
+  /* activeRoute: string = ''; */
+  activeRoute: 'home' | 'marketing' | 'contact' | 'about' | 'whatsapp' | 'sms' | 'mailing' | 'vlabs' | 'chatbot' | 'faqs' = 'home';
+  
   constructor() { }
 
-  setRoute(route: string) {
+  setRoute(route: 'home' | 'marketing' | 'contact' | 'about' | 'whatsapp' | 'sms' | 'mailing' | 'vlabs' | 'chatbot' | 'faqs') {
     this.activeRoute = route;
   }
+  
 }

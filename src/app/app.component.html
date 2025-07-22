@@ -78,11 +78,16 @@
 
 <!-- Header Section Start -->
 
-
-
-
-
 <app-header></app-header>
-<app-home></app-home>
+<app-home [hidden]="global.activeRoute!='home'"></app-home>
+<app-marketing [hidden]="global.activeRoute!='marketing'"></app-marketing>
+<app-contact [hidden]="global.activeRoute!='contact'"></app-contact>
+<app-about [hidden]="global.activeRoute!='about'"></app-about>
+<app-whatsapp [hidden]="global.activeRoute!='whatsapp'"></app-whatsapp>
+<app-sms [hidden]="global.activeRoute!='sms'"></app-sms>
+<app-mailing [hidden]="global.activeRoute!='mailing'"></app-mailing>
+<app-vlabs [hidden]="global.activeRoute!='vlabs'"></app-vlabs>
+<app-chatbot [hidden]="global.activeRoute!='chatbot'"></app-chatbot>
+<app-faqs [hidden]="global.activeRoute!='faqs'"></app-faqs>
 <app-footer></app-footer>
 </div>

@@ -15,7 +15,7 @@
                           <div class="main-menu">
                               <nav id="mobile-menu">
                                   <ul>
-                                    <li> <a> Marketing Ético</a></li>
+                                    <li> <a (click)="global.setRoute('marketing')"> Marketing Ético</a></li>
                                     <li class="nav-item dropdown" role="menuitem" aria-haspopup="true" [attr.aria-expanded]="isProductsOpen">
                                       <button class="dropbtn"
                                               (mouseenter)="openProducts()"
@@ -40,21 +40,18 @@
                                           <div class="mega-main">
                                             <div class="subcontent" *ngIf="expandedColumn === 'canales'">
                                               <h4>Comunicación</h4>
-                                              <a href="#">WhatsApp Business API</a>
-                                              <a href="#">SMS</a>
-                                              <a href="#">Mailing</a>
-                                              <a href="#">V‑Labs</a>
-                                              <a href="#">Chatbot</a>
+                                              <a (click)="global.setRoute('whatsapp')">WhatsApp Business API</a>
+                                              <a (click)="global.setRoute('sms')">SMS</a>
+                                              <a (click)="global.setRoute('mailing')">Mailing</a>
+                                              <a (click)="global.setRoute('vlabs')">V‑Labs</a>
+                                              <a (click)="global.setRoute('chatbot')">Chatbot</a>
                                               
                                             </div>
                                             
                                             
                                       
                                             <div class="subcontent" *ngIf="expandedColumn === 'integraciones'">
-                                              <h4>Plataformas</h4>
-                                              <a href="#">Zapier</a>
-                                              <a href="#">API pública</a>
-                                              <a href="#">Webhooks</a>
+                                              
                                             </div>
                                           </div>
                                         </div>
@@ -117,8 +114,8 @@
                                           <div class="mega-main">
                                             <div class="subcontent" *ngIf="expandedColumn === 'canales'">
                                               <h4>Recursos</h4>
-                                              <a href="#">FAQs</a>
-                                              <a href="#">Blog</a>
+                                              <a (click)="global.setRoute('faqs')">FAQs</a>
+                                              <a >Blog</a>
                                               
                                             </div>
                                           </div>
@@ -134,7 +131,7 @@
                       <a href="" class="search-trigger search-icon"><i class="fal fa-user"></i> Iniciar Sesión</a>
 
                       <div class="header-button ms-4">
-                          <a  class="theme-btn">
+                          <a  class="theme-btn" (click)="global.setRoute('contact')">
                               <span>
                                 Contáctanos
                                   <i class="fa-solid fa-arrow-right-long"></i>

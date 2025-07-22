@@ -1,0 +1,49 @@
+.pb-5 {
+    padding-top: 12rem;
+    padding-bottom: 5rem;
+}
+
+.cta-area {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  padding: 20px;
+  }
+  .hero-cta-main {
+    background: linear-gradient(90deg, #15ba6a, #088C8D);
+    color: #fff;
+    border-radius: 2rem;
+    font-size: 1.07rem;
+    font-weight: 600;
+    padding: 0.85rem 2.2rem;
+    text-decoration: none;
+    box-shadow: 0 4px 18px rgba(8, 140, 141, 0.08);
+    transition: background 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+  }
+  .hero-cta-main:hover { background: transparent;
+    border: 2px solid #15ba6a;
+}
+  .hero-cta-secondary {
+    background: #fff;
+    color: #088C8D;
+    border: 2px solid #15ba6a;
+    border-radius: 2rem;
+    font-size: 1.07rem;
+    font-weight: 500;
+    padding: 0.85rem 1.9rem;
+    text-decoration: none;
+    transition: border 0.2s, color 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+  }
+  .hero-cta-secondary:hover {
+    border: 2px solid #088C8D;
+    color: #fff;
+    
+  }
