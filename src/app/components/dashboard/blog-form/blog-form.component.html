@@ -1,0 +1,62 @@
+<div class="page-wrapper pb-5" >
+    <section class="blog-form-section section-padding pt-0 fix">
+    <div class="container">
+      <div class="contact-form-wrapper style1">
+        <div class="row gy-5 gx-60">
+          <div class="col-xl-12">
+            <div class="contact-form style1">
+              <h2 class="contact-title">Crear nueva entrada de blog</h2>
+              <p class="desc">
+                Completa la información de la entrada y publica directamente en el blog.
+              </p>
+  
+              <form [formGroup]="blogForm" (ngSubmit)="onSubmit()" class="contact-form-items">
+                <div class="row g-4">
+                  <!-- Título -->
+                  <div class="col-lg-12 wow fadeInUp" data-wow-delay=".3s">
+                    <div class="form-clt">
+                      <span>Título*</span>
+                      <input type="text" formControlName="title" placeholder="Título de la entrada" />
+                    </div>
+                  </div>
+  
+                  <!-- Imagen destacada -->
+                  <div class="col-lg-12">
+                    <div class="form-clt">
+                      <span>Imagen destacada</span>
+                      <input type="file" (change)="onFileChange($event)" />
+                    </div>
+                  </div>
+                  
+                  <!-- Contenido con Quill -->
+                  <div class="col-lg-12 wow fadeInUp" data-wow-delay=".7s">
+                    <div class="form-clt">
+                      <span>Contenido*</span>
+                      <quill-editor
+                      formControlName="content"
+                      [modules]="modules"
+                      [style]="{ height: '250px' }"
+                      placeholder="Escribe aquí la descripción del blog">
+                      </quill-editor>
+
+                    </div>
+                  </div>
+  
+                  <!-- Botón -->
+                  <div class="col-lg-7 wow fadeInUp" data-wow-delay=".9s">
+                    <button type="submit" class="theme-btn" [disabled]="blogForm.invalid">
+                      Publicar entrada
+                      <i class="fa-solid fa-arrow-right-long ms-1"></i>
+                    </button>
+                  </div>
+                </div>
+              </form>
+  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+  

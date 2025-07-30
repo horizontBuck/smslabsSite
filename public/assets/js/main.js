@@ -1,9 +1,4 @@
 /*-----------------------------------------------------------------
-Theme Name: Niotech
-Author: Gramentheme
-Author URI: https://themeforest.net/user/gramentheme
-Version: 1.0.0 
-Description: Niotech - App Landing HTML Template <
 
 -------------------------------------------------------------------
 JS TABLE OF CONTENTS

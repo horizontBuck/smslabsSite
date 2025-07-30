@@ -14,6 +14,10 @@ import { MailingComponent } from './components/products/mailing/mailing.componen
 import { VlabsComponent } from './components/products/vlabs/vlabs.component';
 import { ChatbotComponent } from './components/products/chatbot/chatbot.component';
 import { FaqsComponent } from './components/faqs/faqs.component';
+import { AdminComponent } from './components/dashboard/admin/admin.component';
+import { BlogComponent } from './components/blog/blog.component';
+import { BlogDetailComponent } from './components/blog-detail/blog-detail.component';
+import { BlogFormComponent } from './components/dashboard/blog-form/blog-form.component';
 
 @Component({
   selector: 'app-root',
@@ -31,7 +35,11 @@ import { FaqsComponent } from './components/faqs/faqs.component';
     MailingComponent,
     VlabsComponent,
     ChatbotComponent,
-    FaqsComponent
+    FaqsComponent,
+    AdminComponent,
+    BlogComponent,
+    BlogDetailComponent,
+    BlogFormComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
