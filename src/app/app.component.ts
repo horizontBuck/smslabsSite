@@ -18,6 +18,7 @@ import { AdminComponent } from './components/dashboard/admin/admin.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { BlogDetailComponent } from './components/blog-detail/blog-detail.component';
 import { BlogFormComponent } from './components/dashboard/blog-form/blog-form.component';
+import { LoginComponent } from './components/login/login.component';
 
 @Component({
   selector: 'app-root',
@@ -39,7 +40,8 @@ import { BlogFormComponent } from './components/dashboard/blog-form/blog-form.co
     AdminComponent,
     BlogComponent,
     BlogDetailComponent,
-    BlogFormComponent
+    BlogFormComponent,
+    LoginComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

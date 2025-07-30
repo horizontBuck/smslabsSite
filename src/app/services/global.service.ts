@@ -6,14 +6,14 @@ import { BehaviorSubject } from 'rxjs';
 })
 export class GlobalService {
   /* activeRoute: string = ''; */
-  activeRoute: 'home' | 'marketing' | 'contact' | 'about' | 'whatsapp' | 'sms' | 'mailing' | 'vlabs' | 'chatbot' | 'faqs' | 'admin' | 'blog' | 'blog-detail' | 'blog-form' = 'home';
+  activeRoute: 'home' | 'marketing' | 'contact' | 'about' | 'whatsapp' | 'sms' | 'mailing' | 'vlabs' | 'chatbot' | 'faqs' | 'admin' | 'blog' | 'blog-detail' | 'blog-form' | 'login' = 'home';
   baseUrl: string = 'https://db.buckapi.lat:8090';
   private blogSource = new BehaviorSubject<any>(null);
   blog$ = this.blogSource.asObservable();
   blog: any = {};
   constructor(public blogService: BlogService) { }
 
-  setRoute(route: 'home' | 'marketing' | 'contact' | 'about' | 'whatsapp' | 'sms' | 'mailing' | 'vlabs' | 'chatbot' | 'faqs' | 'admin' | 'blog' | 'blog-detail' | 'blog-form') {
+  setRoute(route: 'home' | 'marketing' | 'contact' | 'about' | 'whatsapp' | 'sms' | 'mailing' | 'vlabs' | 'chatbot' | 'faqs' | 'admin' | 'blog' | 'blog-detail' | 'blog-form' | 'login') {
     this.activeRoute = route;
   }
  

@@ -1,0 +1,57 @@
+<div class="page-wrapper pb-5">
+    <section class="login-section section-padding fix">
+      <div class="container-fluid">
+        <div class="row gx-0">
+          <!-- Formulario -->
+          <div class="col-lg-5 login-right d-flex align-items-center justify-content-center">
+            <div class="login-form-container">
+              <h2 class="login-title">Bienvenido De Nuevo</h2>
+              <p class="login-subtitle">Inicia sesión para continuar en tu cuenta</p>
+  
+              <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+                <!-- Email -->
+                <div class="form-clt mb-4">
+                  <span>Email*</span>
+                  <input type="email" formControlName="email" placeholder="Tu correo" />
+                </div>
+  
+                <!-- Contraseña -->
+                <div class="form-clt mb-4">
+                  <span>Contraseña*</span>
+                  <input type="password" formControlName="password" placeholder="Tu contraseña" />
+                </div>
+  
+                <button type="submit" class="theme-btn w-100" [disabled]="loginForm.invalid || loading">
+                  <ng-container *ngIf="!loading; else loadingTpl">
+                    Iniciar sesión <i class="fa-solid fa-arrow-right-long ms-1"></i>
+                  </ng-container>
+                  <ng-template #loadingTpl>
+                    <i class="fa-solid fa-spinner fa-spin"></i> Cargando...
+                  </ng-template>
+                </button>
+  
+                <!-- Links -->
+                <div class="text-center mt-3">
+                  <a href="#" class="forgot-link">¿Olvidaste tu contraseña?</a>
+                  <p class="small-text mt-2">
+                    ¿No tienes cuenta? <a href="#">Regístrate aquí</a>
+                  </p>
+                </div>
+              </form>
+            </div>
+          </div>
+  
+          <!-- Imagen lateral -->
+          <div class="col-lg-7 login-left d-none d-lg-flex align-items-center justify-content-center">
+            <img
+              src="assets/images/login.png"
+              alt="Login"
+              class="login-banner"
+              style="width: 98%; max-width: 98%;"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  

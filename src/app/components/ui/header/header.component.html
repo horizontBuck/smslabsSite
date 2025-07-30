@@ -5,7 +5,7 @@
               <div class="header-main">
                   <div class="header-left">
                       <div class="logo">
-                          <a href="index.html" class="header-logo">
+                          <a (click)="global.setRoute('home')" class="header-logo">
                               <img src="assets/images/logo/logosmsN.png" alt="logo-img" style="max-width: 35%;">
                           </a>
                       </div>
@@ -128,7 +128,7 @@
                       </div>
                   </div>
                   <div class="header-right d-flex justify-content-end align-items-center">
-                      <a href="" class="search-trigger search-icon"><i class="fal fa-user"></i> Iniciar Sesión</a>
+                      <a (click)="global.setRoute('login')" class="search-trigger search-icon"><i class="fal fa-user"></i> Iniciar Sesión</a>
 
                       <div class="header-button ms-4">
                           <a  class="theme-btn" (click)="global.setRoute('contact')">
