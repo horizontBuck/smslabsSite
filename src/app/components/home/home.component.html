@@ -3,14 +3,14 @@
     <div class="intro-container-wrapper style1">
         <div class="container">
             <div class="intro-wrapper style1 fix">
-                <div class="shape1"><img src="assets/images/shape/introShape1_1.png" alt="shape"></div>
+               <!--   <div class="shape1"><img src="assets/images/shape/introShape1_1.png" alt="shape"></div>
                 <div class="shape2"><img src="assets/images/shape/introShape1_2.png" alt="shape"></div>
-                <div class="shape3 d-none d-xxl-block cir36"><img src="assets/images/shape/introShape1_3.png"
+                --> <div class="shape3 d-none d-xxl-block cir36"><img src="assets/images/shape/introShape1_3.png"
                         alt="shape"></div>
                 <div class="shape4 d-none d-xxl-block cir36"><img src="assets/images/shape/introShape1_4.png"
                         alt="shape"></div>
                 <div class="shape5 d-none d-xxl-block cir36"><img src="assets/images/shape/introShape1_5.png"
-                        alt="shape"></div>
+                        alt="shape"></div> 
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-7 order-2 order-xl-1">
@@ -26,7 +26,7 @@
                                 <div class="btn-wrapper style1 wow fadeInUp" data-wow-delay=".6s">
                                     
                                     <a class="theme-btn style2 wow fadeInUp" data-wow-delay=".2s"
-                                        >Hablemos
+                                        (click)="global.setRoute('contact')">Hablemos
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                             viewBox="0 0 16 16" fill="none">
                                             <g clip-path="url(#clip0_11_27)">
@@ -70,7 +70,7 @@
         <div class="container">
             <div class="about-wrapper style1">
                 <div class="row gy-5 gx-60">
-                    <div class="col-xl-6">
+                    <!-- <div class="col-xl-6">
                         <div class="about-thumb">
                             <div class="bg"></div>
                            
@@ -88,36 +88,40 @@
                             </div>
 
                         </div>
-                    </div>
-                    <div class="col-xl-6">
+                    </div> -->
+                    <div class="col-xl-12">
                         <div class="about-content">
-                            <div class="section-title">
-                                <div class="subtitle wow  fadeInUp" data-wow-delay=".2s">
-                                Quienes Somos
-                                </div>
-                                <h2 class="title wow fadeInUp" data-wow-delay=".4s">Más que tecnología, un equipo a tu lado</h2>
-                                <p class="section-desc wow fadeInUp" data-wow-delay=".6s">En SMSLabs no solo entregamos una plataforma.<br>
-                                    Te acompañamos con personas reales, asesoría personalizada y soluciones a medida para que tu comunicación tenga impacto real y resultados medibles.<br>
-                                    Sin tickets eternos. Sin zonas horarias distintas. Sin letra chica.<br>
-                                    Comunicación clara, rápida y pensada para ayudarte a crecer.
-                                    </p>
+                            <div class="section-title text-center mxw-685 mx-auto wow fadeInUp" data-wow-delay=".2s">
+                                <div class="subtitle">
+                                    Quienes Somos
+                                </div>                               
                             </div>
                             
-                            <a class="theme-btn style2 wow fadeInUp" data-wow-delay=".2s" (click)="global.setRoute('about')">Más Información
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
-                                    fill="none">
-                                    <g clip-path="url(#clip0_18_41)">
-                                        <path
-                                            d="M11.6118 3.61182L10.8991 4.32454L14.0706 7.49603H0V8.50398H14.0706L10.8991 11.6754L11.6118 12.3882L16 7.99997L11.6118 3.61182Z"
-                                            fill="white" />
-                                    </g>
-                                    <defs>
-                                        <clipPath id="clip0_18_41">
-                                            <rect width="16" height="16" fill="white" />
-                                        </clipPath>
-                                    </defs>
-                                </svg>
-                            </a>
+                            <div class="section-title text-center mx-auto wow fadeInUp" style="max-width: 1200px;">
+                                <h2 class="title wow fadeInUp" data-wow-delay=".4s" style="text-align: center;">Más que tecnología, un equipo a tu lado</h2>
+                                <p data-wow-delay=".6s" style="text-align: center;">En SMSLabs no solo entregamos una plataforma.</p>
+                                <p data-wow-delay=".6s" style="text-align: center;"><strong>Te acompañamos con personas reales,</strong> asesoría personalizada y soluciones a medida </p>
+                                <p data-wow-delay=".6s" style="text-align: center;"> para que tu comunicación tenga <strong>impacto real y resultados medibles.</strong></p>
+                                <p data-wow-delay=".6s" style="text-align: center;"><strong>Sin tickets eternos. Sin zonas horarias distintas. Sin letra chica.</strong></p>
+                                <p data-wow-delay=".6s" style="text-align: center;">Comunicación clara, rápida y pensada para ayudarte a crecer.</p>
+                                <a class="theme-btn style2 wow fadeInUp" data-wow-delay=".2s" (click)="global.setRoute('about')" style="margin-top: 20px;">Más Información
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
+                                        fill="none">
+                                        <g clip-path="url(#clip0_18_41)">
+                                            <path
+                                                d="M11.6118 3.61182L10.8991 4.32454L14.0706 7.49603H0V8.50398H14.0706L10.8991 11.6754L11.6118 12.3882L16 7.99997L11.6118 3.61182Z"
+                                                fill="white" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_18_41">
+                                                <rect width="16" height="16" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </a>
+                            </div>
+                            
+                            
                         </div>
                     </div>
                 </div>
@@ -130,7 +134,7 @@
 <section class="wcu-section section-padding fix">
     <div class="wcu-container-wrapper style1">
         <div class="container">
-            <div class="section-title text-center mxw-685 mx-auto wow fadeInUp" data-wow-delay=".2s">
+            <div class="section-title text-center mx-auto wow fadeInUp" data-wow-delay=".2s" style="max-width: 945px;">
                 <div class="subtitle">
                     Comunicación con Propósito
                 </div>
@@ -196,7 +200,19 @@
                 <p>En SMSLabs te acompañamos para que cada envío sea una oportunidad real de conectar, fidelizar y generar valor.</p>
                 
             </div>
-            <div class="checklist-wrapper style1 wow fadeInUp" data-wow-delay=".4s">
+            <div style="text-align: center; padding: 20px;">
+                <p><i class="fas fa-check"></i> Con SMSLabs conectas con tus clientes a través de los canales más efectivos: SMS, Email, WhatsApp, Chatbots y mensajes de voz (V-Labs).
+                </p>
+            </div>
+            <div style="text-align: center; padding: 20px;">
+                <p> <i class="fas fa-check"></i> Automatiza y personaliza tus campañas para lograr mejores resultados, aumentar la fidelidad y mejorar la experiencia de tus usuarios.
+                </p>
+            </div>
+            <div style="text-align: center; padding: 20px;">
+                <p><i class="fas fa-check"></i> Además, cuentas con un equipo que entiende tu negocio y te ayuda a comunicar de forma simple, rápida y sin complicaciones.
+                </p>
+            </div>
+            <!-- <div class="checklist-wrapper style1 wow fadeInUp" data-wow-delay=".4s">
                 <ul class="checklist style1">
                     <li><i class="fas fa-check"></i> Con SMSLabs conectas con tus clientes a través de los canales más efectivos: SMS, Email, WhatsApp, Chatbots y mensajes de voz (V-Labs).
                     </li>
@@ -209,55 +225,9 @@
                     <li><i class="fas fa-check"></i> Además, cuentas con un equipo que entiende tu negocio y te ayuda a comunicar de forma simple, rápida y sin complicaciones.
                     </li>
                 </ul>
-            </div>
+            </div> -->
         </div>
     </div>
-</section>
-
-
-<!-- Blog Section S T A R T -->
-<section class="blog-section section-padding fix">
-    <div class="container">
-        <div class="blog-wrapper style1">
-            <div class="section-title text-center mxw-685 mx-auto">
-                <div class="subtitle wow fadeInUp" data-wow-delay=".2s">
-                    Blog
-                </div>
-                <h2 class="title wow fadeInUp" data-wow-delay=".4s">Recent Articles And Latest Blog</h2>
-            </div>
-            <div class="row gy-5">
-                <div class="col-xl-4 col-md-6">
-                    <div class="blog-card style1 wow fadeInUp" data-wow-delay=".2s">
-                        <div class="thumb">
-                            <img src="assets/images/blog/blogThumb1_1.jpg" alt="thumb">
-                        </div>
-                        <div class="body">
-                            <div class="tag-meta">
-                                <i class="far fa-folder" style="color: var(--theme4);"></i>     
-                                Workplace
-                            </div>
-                            <h3><a href="blog-details.html">Services that printing at you is important</a></h3>
-                            <div class="blog-meta">
-                                <div class="item child1">
-                                    <span class="icon">
-                                        <i class="far fa-user" style="color: var(--theme4);"></i>
-                                    </span>
-                                    <span class="text">By Admin</span>
-                                </div>
-                                <div class="item">
-                                    <span class="icon">
-                                        <i class="far fa-calendar" style="color: var(--theme4);"></i>
-                                    </span>
-                                    <span class="text">Sep 30, 2024</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-              
-            </div>
-        </div>
-    </div>
-</section>
+</section>              
 
 

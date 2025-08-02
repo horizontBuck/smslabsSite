@@ -81,7 +81,7 @@
 body {
   font-family: "Urbanist", sans-serif;
   /* font-family: "DM Sans", sans-serif; */
-  font-size: 16px;
+  font-size: 20px;
   font-weight: normal;
   line-height: 28px;
   color: var(--text);
@@ -122,7 +122,7 @@ h6 {
   margin: 0px;
   padding: 0;
   color: var(--title);
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   transition: all 0.4s ease-in-out;
 }
 
@@ -439,7 +439,7 @@ input[type=radio]:checked ~ label::before {
   color: var(--white);
   font-family: "Urbanist", sans-serif;
   text-align: center;
-  font-size: 16px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -2616,10 +2616,11 @@ input[type=radio]:checked ~ label::before {
   align-items: center;
   gap: 10px;
   border-radius: 100px;
-  background: #282d35;
-  color: var(--theme);
+  /* background: #282d35; */
+  /* color: var(--theme); */
+  color: #282d35;
   font-family: "Urbanist", sans-serif;
-  font-size: 18px;
+  font-size: 28px;
   font-style: normal;
   font-weight: 600;
   line-height: 28px;
@@ -3109,7 +3110,7 @@ input[type=radio]:checked ~ label::before {
 }
 
 .checklist.style1 li {
-  color: var(--title);
+  color: var(--text);
   font-family: "Urbanist", sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -4444,7 +4445,7 @@ input.main-search-input::placeholder {
 }
 @media (max-width: 1899px) {
   .header-main .main-menu ul li {
-    margin-inline-end: 25px;
+    margin-inline-end: 85px;
   }
 }
 .header-main .main-menu ul li:last-child {
@@ -4457,7 +4458,7 @@ input.main-search-input::placeholder {
   position: relative;
   color: var(--title);
   font-family: "Urbanist", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -4678,7 +4679,7 @@ input.main-search-input::placeholder {
 }
 .header-main .header-right .search-icon {
   color: var(--title);
-  font-size: 18px;
+  font-size: 20px;
 }
 @media (max-width: 767px) {
   .header-main .header-right .search-icon {
@@ -5773,7 +5774,7 @@ input.main-search-input::placeholder {
 .intro-wrapper.style1 {
   position: relative;
   border-radius: 50px;
-  background: rgba(116, 68, 253, 0.06);
+  /* background: rgba(116, 68, 253, 0.06); */
   margin-top: 40px;
 }
 @media (max-width: 767px) {
@@ -5888,7 +5889,7 @@ input.main-search-input::placeholder {
 .intro-wrapper.style1 .intro-content .intro-section-title .intro-desc {
   color: var(--title);
   font-family: "Urbanist", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: 28px;
@@ -6277,7 +6278,7 @@ input.main-search-input::placeholder {
   width: 465px;
   height: 350px;
   border-radius: 0px 0px 50px 50px;
-  background: #E8E5FD;
+  /* background: #E8E5FD; */
 }
 @media (max-width: 767px) {
   .about-wrapper.style1 .about-thumb .bg {
@@ -7549,8 +7550,8 @@ input.main-search-input::placeholder {
 }
 
 .how-work-wrapper {
-  border-top: 1px solid var(--border);
-  padding-top: 60px;
+/*   border-top: 1px solid var(--border);
+ */  /* padding-top: 60px; */
 }
 @media (max-width: 575px) {
   .how-work-wrapper {
@@ -7558,8 +7559,8 @@ input.main-search-input::placeholder {
   }
 }
 .how-work-wrapper .how-work-content .text {
-  max-width: 520px;
-  color: #565656;
+  max-width: 1200px;
+  color: var(--text);
   font-weight: 500;
   margin-bottom: 40px;
 }
@@ -7589,7 +7590,7 @@ input.main-search-input::placeholder {
 }
 .how-work-wrapper .how-work-content .how-work-number-items .content h3 {
   font-size: 20px;
-  border-bottom: 1px solid var(--border);
+  /* border-bottom: 1px solid var(--border); */
   padding-bottom: 15px;
   margin-bottom: 15px;
 }

@@ -21,8 +21,11 @@
                                         
                                         <i class="fa-brands fa-facebook-f"></i></a>
                                 </div>
-                                <div class="play">
+                                <div class="apple">
                                     <a ><i class="fa-brands fa-linkedin-in"></i></a>
+                                </div>
+                                <div class="apple">
+                                    <a ><i class="fa-brands fa-instagram"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -35,27 +38,27 @@
                         </div>
                         <ul class="list-area">
                             <li>
-                                <a >
+                                <a (click)="global.setRoute('whatsapp')">
                                     WhatsApp Business API
                                 </a>
                             </li>
                             <li>
-                                <a >
+                                <a (click)="global.setRoute('sms')">
                                     SMS
                                 </a>
                             </li>
                             <li>
-                                <a >
+                                <a  (click)="global.setRoute('mailing')">
                                     Mailing
                                 </a>
                             </li>
                             <li>
-                                <a >
+                                <a (click)="global.setRoute('vlabs')">
                                     V-Labs
                                 </a>
                             </li>
                             <li>
-                                <a >
+                                <a (click)="global.setRoute('chatbot')">
                                     Chatbot
                                 </a>
                             </li>
@@ -70,17 +73,17 @@
                         </div>
                         <ul class="list-area">
                             <li>
-                                <a >
+                                <a (click)="global.setRoute('about')">
                                     Quienes somos
                                 </a>
                             </li>
                             <li>
-                                <a >
+                                <a (click)="global.setRoute('blog')">
                                     Blog
                                 </a>
                             </li>
                             <li>
-                                <a >
+                                <a (click)="global.setRoute('contact')">
                                     Contacto
                                 </a>
                             </li>
@@ -102,15 +105,16 @@
                     <div class="single-footer-widget">
                         <div class="contact-box">
                             <div class="subtitle">Contáctanos</div>
-                            <div class="text">Av. Providencia XXX.XXX <br>
-                                Providencia, Santiago. Chile.
+                            <div class="text">Av. Providencia 1208, oficina 207. <br>
+                                Providencia, Santiago. Chile
+                                
                             </div>
                             <div class="info">
                                 <div class="icon">
                                     <i class="far fa-envelope" style="color: var(--theme4);"></i>
                                 </div>
                                 <div class="link">
-                                    <li><a href="mailto:support@gmail.com">contacto&#64;smslabs.cl</a></li>
+                                    <li><a href="mailto:contacto&#64;smslabs.cl">contacto&#64;smslabs.cl</a></li>
                                 </div>
                             </div>
                             <div class="info">
@@ -118,7 +122,8 @@
                                     <i class="far fa-phone" style="color: var(--theme4);"></i>
                                 </div>
                                 <div class="link">
-                                    <a href="tel:+5646821757">+56 4682 1757</a> <br>
+                                    <a href="tel:+56963106147">+569 6310 6147
+                                    </a> <br>
                                 </div>
                             </div>
                         </div>
