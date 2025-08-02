@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { GlobalService } from '../../../services/global.service';
 @Component({
   selector: 'app-chatbot',
   imports: [],
@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './chatbot.component.css'
 })
 export class ChatbotComponent {
+constructor(public global: GlobalService) {}
 
 }

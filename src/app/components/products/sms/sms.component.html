@@ -6,7 +6,7 @@
           <div class="row gy-5 gy-md-0 gx-60 d-flex align-items-center">
             <!-- CONTENIDO IZQUIERDA -->
              <div class="row">
-                <div class="col-xl-8 order-2 order-xl-1">
+                <div class="col-xl-12 order-2 order-xl-1">
                     <div class="wp-content style2">
                       <div class="section-title">
                         <div class="subtitle wow fadeInUp" data-wow-delay=".2s">
@@ -22,13 +22,7 @@
                       </div>
                     </div>
                 </div>
-                <div class="col-xl-4 order-1 order-xl-2">
-                    <div class="wp-thumb wow fadeInUp" data-wow-delay=".4s">
-                      <div class="main-thumb img-custom-anim-right wow">
-                        <img src="assets/images/wp/wpThumb2_1.jpg" alt="SMS Marketing">
-                      </div>
-                    </div>
-                  </div>
+                
              </div>
             <div class="col-xl-12 order-2 order-xl-1">
               <div class="wp-content style2">
@@ -141,11 +135,11 @@
         <p class="fw-semibold mb-2" style="padding-left: 10%;">
             Activa el canal más confiable y directo del mercado.<br>
             Con SMSLabs potencia tu estrategia digital con SMS Marketing: llegas a más personas,<br> en menos tiempo y con mejores resultados.        </p>
-        <a href="#demo" class="hero-cta-main">
+        <a (click)="global.setRoute('contact')" class="hero-cta-main">
           <i class="fa-solid fa-bolt"></i>
           Solicita tu demo gratuita
         </a>
-        <a href="#contacto" class="hero-cta-secondary">
+        <a (click)="global.setRoute('contact')" class="hero-cta-secondary">
           <i class="fa-regular fa-comments"></i>
           Habla con un experto
         </a>

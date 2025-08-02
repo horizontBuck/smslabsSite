@@ -6,22 +6,9 @@
                 <div class="wcu-wrapper style2 section-padding fix">
                     <div class="container">
                         <div class="row gy-5 gx-60 d-flex align-items-center">
-                            <!-- Columna visual (izquierda) -->
-                            <div class="col-xl-6">
-                                <div class="wcu-thumb">
-                                    <div class="main-thumb img-custom-anim-right wow fadeInUp" data-wow-delay=".4s">
-                                        <img src="assets/images/wcu/wcuThumb2_1.png" alt="Chatbot Omnicanal + IA">
-                                    </div>
-                                    <div class="thumb2 float-bob-y">
-                                        <img src="assets/images/wcu/wcuThumb2_2.png" alt="Automatización Chatbot">
-                                    </div>
-                                    <div class="thumb3 float-bob-x">
-                                        <img src="assets/images/wcu/wcuThumb2_3.png" alt="Omnicanalidad SMSLabs">
-                                    </div>
-                                </div>
-                            </div>
+                           
                             <!-- Columna contenido (derecha) -->
-                            <div class="col-xl-6">
+                            <div class="col-xl-12">
                                 <div class="wcu-content">
                                     <div class="section-title">
                                         <div class="subtitle wow fadeInUp" data-wow-delay=".2s">
@@ -59,7 +46,7 @@
                 <div class="col-xl-6 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                     <div class="feature-box-items">
                         <div class="icon">
-                            <img src="assets/images/icon/01.svg" alt="Omnicanalidad Chatbot">
+                            <i class="fa-solid fa-comments"></i>
                         </div>
                         <div class="content">
                             <h4>Chatbots Omnicanal con IA listos para vender, atender y resolver</h4>
@@ -71,7 +58,7 @@
                                 <li><i class="fa-solid fa-check" style="padding-right: 1em;"></i> Disponible 24/7 en todos tus canales.</li>
                             </ul>
                             <div class="col-6">
-                            <a href="#funcionamiento" class="hero-cta-main mt-2">
+                            <a (click)="global.setRoute('contact')" class="hero-cta-main mt-2">
                                 <i class="fa-solid fa-lightbulb"></i> Conoce cómo funciona
                             </a>
                             </div>
@@ -82,7 +69,7 @@
                 <div class="col-xl-6 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                     <div class="feature-box-items">
                         <div class="icon">
-                            <img src="assets/images/icon/02.svg" alt="Solución Automatizada">
+                            <i class="fa-solid fa-arrow-right-long"></i>
                         </div>
                         <div class="content">
                             <h4>Transformamos tu necesidad en una solución automatizada</h4>
@@ -94,7 +81,7 @@
                                 <li><i class="fa-solid fa-check" style="padding-right: 1em;"></i> <b>Optimización y evolución constante:</b> Medimos resultados, ajustamos flujos y te acompañamos en todo momento.</li>
                             </ul>
                             <div class="col-6">
-                            <a href="#asesoria" class="hero-cta-secondary mt-2">
+                            <a (click)="global.setRoute('contact')" class="hero-cta-secondary mt-2">
                                 <i class="fa-regular fa-comments"></i> Agenda una asesoría gratuita
                             </a>
                             </div>
@@ -105,7 +92,7 @@
                 <div class="col-xl-12 col-lg-12 col-md-12 wow fadeInUp" data-wow-delay=".7s">
                     <div class="feature-box-items">
                         <div class="icon">
-                            <img src="assets/images/icon/03.svg" alt="Integraciones Omnicanal">
+                            <i class="fa-solid fa-link"></i>
                         </div>
                         <div class="content">
                             <h4>Conecta tu bot en todos los canales que usa tu audiencia</h4>
@@ -134,7 +121,7 @@
             Automatiza, escala y mejora tu atención al cliente con un chatbot creado especialmente para ti.<br>
             <b>Solicita tu demo gratuita y descubre cómo podemos ayudarte a crecer sin límites.</b>
         </p>
-        <a href="#asesoria" class="hero-cta-main me-3">
+        <a (click)="global.setRoute('contact')" class="hero-cta-main me-3">
             <i class="fa-solid fa-bolt"></i> Quiero mi asesoría personalizada
         </a>
     </div>
