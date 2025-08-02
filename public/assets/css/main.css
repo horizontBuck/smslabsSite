@@ -6829,7 +6829,7 @@ input.main-search-input::placeholder {
   z-index: 3;
   padding: 12px 35px;
   border-radius: 10px;
-  background: linear-gradient(135deg, #AC60E5 0%, #0C87F0 100%);
+  background:linear-gradient(135deg, #088C8D 0%, #0C87F0 100%);
 }
 .wcu-wrapper.style3 .wcu-thumb .thumb-box h5 {
   color: var(--white);

@@ -2,10 +2,6 @@
     padding-top: 12rem;
     padding-bottom: 5rem;
 }
-.pb-5 {
-    padding-top: 12rem;
-    padding-bottom: 5rem;
-}
 
 .cta-area {
     display: flex;
@@ -14,6 +10,8 @@
   margin-bottom: 3rem;
   margin-top: 3rem;
   padding: 20px;
+  margin-left: 8%;
+
   }
   .hero-cta-main {
     background: linear-gradient(90deg, #15ba6a, #088C8D);
